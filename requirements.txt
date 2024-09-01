@@ -1,8 +1,10 @@
 fastapi==0.112.1
-numpy==2.1.0
+numpy==1.26.4
 opencv_python==4.9.0.80
 opencv_python_headless==4.10.0.84
 pandas==2.2.2
 Pillow==10.4.0
 pytesseract==0.3.13
 transformers==4.39.3
+torch==2.4.0
+XlsxWriter==3.2.0
