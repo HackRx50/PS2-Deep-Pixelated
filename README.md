@@ -2,24 +2,24 @@
 <h1> OCRxAI <h1>
 </div>
 
+![Description](https://drive.google.com/uc?export=view&id=177IIK5xUz6e3Fq5EcUZePSlDQFUbFyXk)
+
 ## Installation
 To set up the project and install all required libraries, follow these steps:
 ### 1. Clone the Repository
-   git clone https://github.com/IVAVI17/OCRxAI.git
+   `git clone https://github.com/IVAVI17/OCRxAI.git`
 ### 2. Install the dependencies
-   pip install -r requirements.txt
+  `pip install --default-timeout=100 -r requirements.txt`
 ### 3. Setting Up Tesseract-OCR
    The Tesseract-OCR libraries needed have been included in the repository. However, if you encounter any errors or if the files are corrupted during cloning, please follow these steps to set up Tesseract manually:
    1. Download the Tesseract-OCR libraries from the following link: [Tesseract OCR Download](https://github.com/UB-Mannheim/tesseract/wiki)
    2. Install the Tesseract-OCR libraries by following the installation instructions for your operating system
    3. After installation, add the installed Tesseract folder to the main project directory
-   4. Open main.py and update the Tesseract command path by modifying the following line: pytesseract.pytesseract.tesseract_cmd = r'C:/Users/DELL/Downloads/tesseract_trial/Tesseract-OCR/tesseract.exe'
-   5. Replace <path_to_your_tesseract_executable> with the full path to the tesseract.exe file in your system
-   6. To ensure everything is set up correctly, run the following command to check the Tesseract version: tesseract --version     
+   4. Open main.py and update the Tesseract command path by modifying the following line: pytesseract.pytesseract.tesseract_cmd = r'Tesseract-OCR/tesseract.exe'
 
 ### 4. Running the project
 Once everything is set up, you can run the project using:
-python main.py "path of the data set folder"
+`python main.py "path of the data set folder"`
 
 ## Table of Contents
 1. [Overview](#1-overview)
@@ -34,8 +34,7 @@ python main.py "path of the data set folder"
     6. [Additional feature](#46-additional-feature)
 5. [USP of Our Solution](#5-usp-of-our-solution)
 6. [Future Enhancements ](#6-future-enhancements)
-
-9. [About the team ](#6-about-the-team)
+7. [About the team ](#6-about-the-team)
 
 ## 1. Overview
 1. Automation of Diagnosis Extraction: OCRxAI automates the process of extracting medical diagnoses from handwritten forms, enhancing efficiency and accuracy in healthcare.
@@ -98,7 +97,7 @@ We have also added a function, which converts the image of any format (png/jpeg)
 5. Efficient Large Document Processing
 6. Improved Text Extraction Accuracy
 
-## 9. About The Team
+## 7. About The Team
 1. We are Team Deep Pixelated, a group of tech enthusiasts united by our passion for innovation. Comprising [Avi Gupta](https://github.com/IVAVI17), [Kartikey Bhatnagar](https://github.com/kartikey-codes), and [Vaishali Singh](https://github.com/Vaishaliii25), we met during a college club event and quickly bonded over our shared interest in technology and solving real-world problems.
 2. Each of us is pursuing a degree in Computer Science with different specializations. We’ve participated in several hackathons, including the Innovation X Hackathon at our college, where we secured third place.
 3. Our past projects, like Shift Buddy, MedTalk AI, Signature Verification reflect our commitment to creating solutions that make a real impact. Through these projects, we’ve honed our ability to innovate and deliver practical applications that make a difference.
