@@ -17,7 +17,7 @@ To set up the project and install all required libraries, follow these steps:
 
 ### 4. Running the project
 Once everything is set up, you can run the project using:
-python main.py "path of the data set folder"
+`python main.py "path of the data set folder"`
 
 ## Table of Contents
 1. [Overview](#1-overview)
