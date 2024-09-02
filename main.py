@@ -12,9 +12,7 @@ from io import BytesIO
 # Initialize the OCR model and processor
 processor = TrOCRProcessor.from_pretrained('microsoft/trocr-large-handwritten')
 model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-large-handwritten')
-# pytesseract.pytesseract.tesseract_cmd = r'"C:/Program Files/Tesseract-OCR/tesseract.exe"'
-# pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
-pytesseract.pytesseract.tesseract_cmd = r'C:/Users/DELL/Downloads/tesseract_trial/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'Tesseract-OCR/tesseract.exe'
 
 
 def convert_to_jpg(image: Image.Image) -> Image.Image:
