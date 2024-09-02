@@ -5,7 +5,7 @@
 ## Installation
 To set up the project and install all required libraries, follow these steps:
 ### 1. Clone the Repository
-   git clone https://github.com/IVAVI17/OCRxAI.git
+   `git clone https://github.com/IVAVI17/OCRxAI.git`
 ### 2. Install the dependencies
   `pip install --default-timeout=100 -r requirements.txt`
 ### 3. Setting Up Tesseract-OCR
