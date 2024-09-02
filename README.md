@@ -2,6 +2,8 @@
 <h1> OCRxAI <h1>
 </div>
 
+[Watch Demo Video](https://drive.google.com/file/d/1pFRK_2VCR8atnd0YVlLnu_3d4HCPc2pR/view?usp=sharing)
+
 ## Installation
 To set up the project and install all required libraries, follow these steps:
 ### 1. Clone the Repository
