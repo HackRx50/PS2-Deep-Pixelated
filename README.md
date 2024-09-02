@@ -10,14 +10,13 @@ To set up the project and install all required libraries, follow these steps:
    pip install -r requirements.txt
 ### 3. Setting Up Tesseract-OCR
    The Tesseract-OCR libraries needed have been included in the repository. However, if you encounter any errors or if the files are corrupted during cloning, please follow these steps to set up Tesseract manually:
-   a. Download the Tesseract-OCR libraries from the following link: [Tesseract OCR Download](https://github.com/UB-Mannheim/tesseract/wiki)
-   b. Install the Tesseract-OCR libraries by following the installation instructions for your operating system
-   c. After installation, add the installed Tesseract folder to the main project directory
-   d. Open main.py and update the Tesseract command path by modifying the following line:
+   1. Download the Tesseract-OCR libraries from the following link: [Tesseract OCR Download](https://github.com/UB-Mannheim/tesseract/wiki)
+   2. Install the Tesseract-OCR libraries by following the installation instructions for your operating system
+   3. After installation, add the installed Tesseract folder to the main project directory
+   4. Open main.py and update the Tesseract command path by modifying the following line:
        pytesseract.pytesseract.tesseract_cmd = r'C:/Users/DELL/Downloads/tesseract_trial/Tesseract-OCR/tesseract.exe'
-   e. Replace <path_to_your_tesseract_executable> with the full path to the tesseract.exe file in your system
-   f. To ensure everything is set up correctly, run the following command to check the Tesseract version:
-       tesseract --version
+   5. Replace <path_to_your_tesseract_executable> with the full path to the tesseract.exe file in your system
+   6. To ensure everything is set up correctly, run the following command to check the Tesseract version: tesseract --version     
 
 ### 4. Running the project
 Once everything is set up, you can run the project using:
