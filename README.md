@@ -2,6 +2,27 @@
 <h1> OCRxAI <h1>
 </div>
 
+## Installation
+To set up the project and install all required libraries, follow these steps:
+### 1. Clone the Repository
+   git clone https://github.com/IVAVI17/OCRxAI.git
+### 2. Install the dependencies
+   pip install -r requirements.txt
+### 3. Setting Up Tesseract-OCR
+   The Tesseract-OCR libraries needed have been included in the repository. However, if you encounter any errors or if the files are corrupted during cloning, please follow these steps to set up Tesseract manually:
+   a. Download the Tesseract-OCR libraries from the following link: [Tesseract OCR Download](https://github.com/UB-Mannheim/tesseract/wiki)
+   b. Install the Tesseract-OCR libraries by following the installation instructions for your operating system
+   c. After installation, add the installed Tesseract folder to the main project directory
+   d. Open main.py and update the Tesseract command path by modifying the following line:
+       pytesseract.pytesseract.tesseract_cmd = r'C:/Users/DELL/Downloads/tesseract_trial/Tesseract-OCR/tesseract.exe'
+   e. Replace <path_to_your_tesseract_executable> with the full path to the tesseract.exe file in your system
+   f. To ensure everything is set up correctly, run the following command to check the Tesseract version:
+       tesseract --version
+
+### 4. Running the project
+Once everything is set up, you can run the project using:
+python main.py "path of the data set folder"
+
 ## Table of Contents
 1. [Overview](#1-overview)
 2. [Problem Statement](#2-problem-statement)
