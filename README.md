@@ -34,8 +34,7 @@ Once everything is set up, you can run the project using:
     6. [Additional feature](#46-additional-feature)
 5. [USP of Our Solution](#5-usp-of-our-solution)
 6. [Future Enhancements ](#6-future-enhancements)
-
-9. [About the team ](#6-about-the-team)
+7. [About the team ](#6-about-the-team)
 
 ## 1. Overview
 1. Automation of Diagnosis Extraction: OCRxAI automates the process of extracting medical diagnoses from handwritten forms, enhancing efficiency and accuracy in healthcare.
@@ -98,7 +97,7 @@ We have also added a function, which converts the image of any format (png/jpeg)
 5. Efficient Large Document Processing
 6. Improved Text Extraction Accuracy
 
-## 9. About The Team
+## 7. About The Team
 1. We are Team Deep Pixelated, a group of tech enthusiasts united by our passion for innovation. Comprising [Avi Gupta](https://github.com/IVAVI17), [Kartikey Bhatnagar](https://github.com/kartikey-codes), and [Vaishali Singh](https://github.com/Vaishaliii25), we met during a college club event and quickly bonded over our shared interest in technology and solving real-world problems.
 2. Each of us is pursuing a degree in Computer Science with different specializations. We’ve participated in several hackathons, including the Innovation X Hackathon at our college, where we secured third place.
 3. Our past projects, like Shift Buddy, MedTalk AI, Signature Verification reflect our commitment to creating solutions that make a real impact. Through these projects, we’ve honed our ability to innovate and deliver practical applications that make a difference.
