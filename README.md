@@ -2,6 +2,14 @@
 <h1> OCRxAI <h1>
 </div>
 
+<div align="center">
+  <h1 style="font-size: 3.5em;">OCRxAI</h1>
+  <h2 style="font-size: 2em;">Team Deep Pixelated</h2>
+  <p>Team Members:</p>
+  <p>Avi Gupta, Kartikey Bhatnagar, [Other Team Members]</p>
+</div>
+
+
 ![Description](https://drive.google.com/uc?export=view&id=177IIK5xUz6e3Fq5EcUZePSlDQFUbFyXk)
 
 ## Installation
