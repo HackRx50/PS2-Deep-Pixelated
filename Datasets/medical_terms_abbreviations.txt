@@ -1,37 +1,3 @@
-@ At 
-& And 
-a Before  
- Change  
-’d Changed  
-’s Changes  
-√(‘d) Check (ed)  
-↓ Decreased lowered down  
-= Equals  
-> Greater than  
-‘ Foot 
-“ Inches  
-↑ Increased elevated up  
-< Less than  
-% percent  
-m Minim  
-- Negative  
- No, none  
-Ť One 
-1:1 One-to-one therapy  
-+ Positive  
-// parallel bars  
-? Question, unknown  
-→ resulting  
-ŤŤŤ Three  
-↔ to from  
- ŤŤ Two 
-c With  
-s Without  
-(R) Rectal  
-(s) Supervision  
-o Degree  
-1° Primary  
-1° AVB  First Degree Atrio -Ventricular Block  
 1st First 
 2D Echo  Two Dimensional Echocardiogram  
 2° Secondary  
@@ -48,23 +14,17 @@ AA Alcoholics Anonymous
 AAA Abdominal Aortic Aneurysm  
 AAROM  Active Assisted Range of Motion  
 Abx Antibiotics  
-AB Abortion  
 Ab Antibody  
 Ab Scrn  Antibody Screen  
 Abd Abdomen  
 ABG  Arterial blood gases  
 ABR Auditory Brainstem Response  
-AC Auditory Comprehension  
-ac Before meals  
-Acc Accuracy  
-Accel  Acceleration  
 ACE Angiotensin Converting Enzyme  
 ACL Anterior cruciate ligament  
 ACLS  Advanced Cardiac Life Support  
 ACS Acute Coronary Syndrome    
 ADA American Diabetic Association  
 ADB Admission Data Base  
-Add Adduction  
 ADHD  Attention Deficit Hyperactive Disorder  
 ADL Activities of daily living  
 adm Admitted as in -patient  
@@ -98,11 +58,9 @@ AMI Acute Myocardial Infarction
 Amnio  Amniocentesis  
 amp Ampule  
 AMRI  Anterior medial rotatory instability  
-amt Amount  
 anes  Anesthesiology/Anesthesia  
 Angio Angiogram  
 ANS Autonomic Nervous System  
-ant Anterior  
 A&O  Alert & Oriented  
 A&P Auscultation and Percussion  
 AO Aorta  
@@ -120,63 +78,41 @@ APRN  Advanced Practice RN
 APS Adult Protective Services  
 aq Aqueous  
 AR Aortic Regurgitation  
-ARDS  Adult/Acute Respira tory Distress 
-Syndrome  
+ARDS  Adult/Acute Respira tory Distress Syndrome  
 ARF Acute Renal Failure  
 AROM  Active Range of Motion  
 art Arterial  
 AS Aortic Stenosis  
-as tol  As Tolerated  
 ASA Aspirin, Acetylsalicylic Acid  
 ASAP  As soon as possible  
 ASCVD  Arteriosclerotic Cardiovascular Disease  
 ASD Atrial Sept al Defect  
 ASHD  Arteriosclerotic heart disease  
-AT Activities therapy  
-ATC Activity Therapy Clinician  
-at fib  Atrial fibrillation  
 ATA Atmosphere Absolute  
 ATB Antibiotics  
 ATN Acute Tubular Necrosis  
 ATT Anterior tibial tendon  
-attn Attention  
 ATV All Ter rain Vehicle  
-aud Audible  
-aug Augmentation  
 AV Atrioventricular  
-avg Average  
 AVR Aortic Valve Replacement  
 Ax Axillary  
-B Both 
-B/B Bowel and bladder  
-BBOW  Bulging Bag of Water  
-B/O Because of  
-Bo Bottle  
 BA Brachial Artery  
-bal Balance  
 BB Backward Bend ing 
 BBB Bundle Branch Block  
 BBS(CE)  Bilateral Breath Sounds Clear & Equal  
-b/c because  
 BCC  Basal Cell Carcinoma  
 BCG  Bacille Calmette -Guerin  
 BCLS  Basic Cardiac Life Support  
 BCS Behavioral Care Services (Psych)  
 BE Barium Enema  
-Bf Boyfriend  
 BG Blood Glucose  
 B-HCG  Beta Human Chorionic Gonadotropin  
-bid Twice a day  
-bil Bilateral  
 Bili Bilirubin  
 Bio Biological  
 BIS Bispectral Index  
 BIT Behavioral Inattention Test  
-BK Below knee  
 BKA Below -knee amputation  
 BKO  Below Knee Orthosis  
-Bld Blood  
-Bld Cult  Blood Culture  
 bldng  Bleeding  
 BLS Basic Life Support  
 BM Bowel movement  
@@ -192,43 +128,22 @@ BPD Bi-Parietal Diameter
 BPH Benign prostatic hypertrophy  
 BPM  Beats per minute  
 BPP Bilateral pedal pulse  
-Br Breast  
 Br-Hold Breath Hold  
-br sounds  Breath Sounds  
-Brady  Bradycardia  
 BRB Bright Red Blood  
-bro Brother  
 BRP Bathroom Privileges  
 BS Bowel Sounds  
-B/S Bedside  
 BSA Body Surface Area  
-BSC Bedside commode  
 BSO  Bilateral salpingo oophorectomy  
 Bst Boost  
-Bst+ Boost plus  
 BTL Bilateral Tubal Ligation  
-BUFA  Baby Up For Adoption  
-BVM  Bag Value Mask  
-bwd Backward  
 bx Biopsy  
-c Cup 
-C_ Cervic al (with vertebral level)  
-C/A Cardiac and Apnea  
-C/D Clean and Dry  
-C/D/I  Clean, Dry & Intact  
-c/o Complain of  
 CA Cancer  
 CABG  Coronary artery bypass graft  
 CAD  Coronary Artery Disease  
 Cal Calorie  
-calc Calculation  
-calib Calibration  
-Cap Capsule  
-CAPD  Continuous Ambulatory Peritoneal 
-Dialysis  
+CAPD  Continuous Ambulatory Peritoneal Dialysis  
 cath Catheter (ization)  
-CAVH  Continuous Arterio -venous 
-Hemofiltration  
+CAVH  Continuous Arterio -venous Hemofiltration  
 CBC  Complete blood count  
 CBI Continuous bladder irrigation  
 CC Chief Complaint  
@@ -237,36 +152,22 @@ CCMS  Clean catch mid s tream
 CCTA  Cardiac CT Angiography  
 CDI Child Depression Inventory  
 CDP  Child Day Program  
-oC Degree Centigrade  
 ceph  Cephalic  
 cerv Cervical  
 CF Cystic Fibrosis  
 CGA  Corrected Gestational Age  
-Cgh Cough  
-Ch Chair  
 CHA  Community Hospital Anderson  
 CHD  Cong enital heart disease  
-CHE  Community Hospital East  
 Chemo  Chemotherapy  
 CHF Congestive heart failure  
-CHI Community Hospital Indianapolis  
-CHN  Community Hospital North  
 CHO  Carbohydrate  
 Chol Cholesterol  
 Chr Chronic  
-CHS  Community Hospital South  
-CI Cardia c Index  
-CI/Comm  Closed, comminuted  
 cine Cineangiogram  
 circ Circumcision  
 CKD Chronic Kidney Disease
-cl Clear  
-clav Clavicle  
-cldy Cloudy  
 CLRT  Continuous lateral rotation therapy  
 CLS Community Living Skills  
-cm Centimeter  
-cmpd  Compound  
 CMS  Circulation, Motion, Sensation  
 CMV  Cytomegalovirus  
 CNS  Central Nervous System  
@@ -297,12 +198,8 @@ CRF Chronic Renal Failure
 CRI Chronic Renal Insufficiency  
 CRIT  Critical Care  
 crpt Croupette  
-CRRT  Continuous Renal Replacement 
-Therapy  
-C & S  Culture & Sensitivity  
-C-Sect Cesarean section  
-CSII Continuous subcutaneous infusion 
-insulin  
+CRRT  Continuous Renal Replacement Therapy  
+CSII Continuous subcutaneous infusion insulin  
 CST Contraction Stress Test  
 CT Cat scan  
 CTA Computed Tomography Angiography  
