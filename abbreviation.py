@@ -1,4 +1,5 @@
 import re
+import difflib
 
 def load_abbreviations(file_path):
     abbreviations_dict = {}
@@ -22,16 +23,47 @@ def clean_text(text):
 
     return cleaned_text
 
+def find_longest_match(word, abbreviations_dict):
+    """Find the longest abbreviation match starting from the first character."""
+    word = word.upper()
+    max_match = ""
+    for abbr in abbreviations_dict.keys():
+        if word.startswith(abbr) and len(abbr) > len(max_match):
+            max_match = abbr
+    return max_match
+
 def replace_abbreviations(sentence, abbreviations_dict):
     cleaned_sentence = clean_text(sentence)
     words = cleaned_sentence.split()
     updated_words = []
+    
     for word in words:
-        stripped_word = re.sub(r'[^\w\s]', '', word)
-        full_form = abbreviations_dict.get(stripped_word.upper(), None)
-        if full_form:
-            updated_word = word.replace(stripped_word, full_form)
-            updated_words.append(updated_word)
+        stripped_word = re.sub(r'[^\w\s]', '', word)  # Strip punctuation or symbols
+        
+        # Check for multi-word sentences
+        if len(words) > 1:
+            # Try to find an exact match first
+            full_form = abbreviations_dict.get(stripped_word.upper(), None)
+            
+            if not full_form:
+                # Find the closest match if no exact match found
+                possible_matches = difflib.get_close_matches(stripped_word.upper(), abbreviations_dict.keys(), n=1, cutoff=0.9)
+                if possible_matches:
+                    full_form = abbreviations_dict.get(possible_matches[0])
+            
+            if full_form:
+                updated_word = word.replace(stripped_word, full_form)
+                updated_words.append(updated_word)
+            else:
+                updated_words.append(word)
         else:
-            updated_words.append(word)
+            # Handle single word input
+            longest_match = find_longest_match(stripped_word, abbreviations_dict)
+            if longest_match:
+                full_form = abbreviations_dict.get(longest_match)
+                updated_word = full_form  # Replace the word with the full form directly
+                updated_words.append(updated_word)
+            else:
+                updated_words.append(word)
+    
     return ' '.join(updated_words)
