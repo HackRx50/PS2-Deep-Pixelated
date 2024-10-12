@@ -129,29 +129,15 @@ async def process_folder(folder_path: str = Form(...)):
             if cropped_image is None:
                 continue  # Skip if no "Provisional Diagnosis" section found   
             
-                    # Step 2: Clean the cropped image
-            # cleaned_image_path = clean_image(cropped_image)
-
-        # (Optional) Set DPI if needed before sending to Qwen2 (handled in the clean_image function if applicable)
-        # You can also save the cleaned image with specified DPI settings if necessary.
-            # cleaned_image = Image.open(cleaned_image_path)
-            # cleaned_image.save(cleaned_image_path, dpi=(300, 300))      
-
-            # Step 2: Extract the text from the cropped image using Qwen2
             extracted_text = extract_text_from_image(cropped_image)
             # extracted_text = extract_text_from_image(cleaned_image_path)
-
-
-            # Create a new entry as a DataFrame
+            
             new_entry = pd.DataFrame({"Image Name": [os.path.basename(image_file)], "Provisional Diagnosis": [extracted_text[0]]})
 
-            # Concatenate the new entry with the existing DataFrame
             df = pd.concat([df, new_entry], ignore_index=True)
 
-        # Save the updated DataFrame to the Excel file
         df.to_excel(EXCEL_FILE, index=False)
 
-        # Return success message
         return {"message": f"Processed {len(image_files)} images from the folder successfully."}
 
     except Exception as e:
