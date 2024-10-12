@@ -7,6 +7,8 @@ from ocr import extract_text_from_image
 from typing import List
 import glob
 from PIL import Image, ImageFilter, ImageEnhance
+from datetime import datetime
+from abbreviation import replace_abbreviations, load_abbreviations
 
 
 app = FastAPI()
@@ -15,6 +17,8 @@ app = FastAPI()
 UPLOAD_DIR = "uploads/"
 CROPPED_DIR = "cropped/"
 EXCEL_FILE = "diagnosis_output.xlsx"
+ABBREVIATION_FILE_PATH = 'Datasets/medical_terms_abbreviations.txt'
+
 
 # Ensure directories exist
 os.makedirs(UPLOAD_DIR, exist_ok=True)
@@ -50,6 +54,8 @@ def clean_image(image_path):
 @app.post("/extract-text/")
 async def extract_text(file: UploadFile = File(...)):
     try:
+        start_time = datetime.now()  # Start time recording
+
         # Save the uploaded file
         file_path = os.path.join(UPLOAD_DIR, file.filename)
         with open(file_path, "wb") as buffer:
@@ -64,19 +70,26 @@ async def extract_text(file: UploadFile = File(...)):
         
         
         # Step 2: Clean the cropped image
-        cleaned_image_path = clean_image(cropped_image)
+        # cleaned_image_path = clean_image(cropped_image)
 
         # (Optional) Set DPI if needed before sending to Qwen2 (handled in the clean_image function if applicable)
-        # You can also save the cleaned image with specified DPI settings if necessary.
-        cleaned_image = Image.open(cleaned_image_path)
-        cleaned_image.save(cleaned_image_path, dpi=(300, 300))
+        # # You can also save the cleaned image with specified DPI settings if necessary.
+        # cleaned_image = Image.open(cleaned_image_path)
+        # cleaned_image.save(cleaned_image_path, dpi=(300, 300))
 
         # Step 2: Extract the text from the cropped image using Qwen2
-        # extracted_text = extract_text_from_image(cropped_image)
-        extracted_text = extract_text_from_image(cleaned_image_path)
+        extracted_text = extract_text_from_image(cropped_image)
+        # extracted_text = extract_text_from_image(cleaned_image_path)
+        abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)
+        refined_text = replace_abbreviations(extracted_text[0], abbreviations_dict)
+
 
         # Load existing Excel file
         df = pd.read_excel(EXCEL_FILE)
+        end_time = datetime.now()
+        process_time = (end_time - start_time).total_seconds()
+        print("processing time", process_time)
+
 
         # Create a new entry as a DataFrame
         new_entry = pd.DataFrame({"Image Name": [file.filename], "Provisional Diagnosis": [extracted_text[0]]})
@@ -88,7 +101,7 @@ async def extract_text(file: UploadFile = File(...)):
         df.to_excel(EXCEL_FILE, index=False)
 
         # Return the extracted text
-        return {"extracted_text": extracted_text}
+        return {"extracted_text": extracted_text, "refined_text": refined_text, "processed time": process_time}
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
