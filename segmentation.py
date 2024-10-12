@@ -1,11 +1,34 @@
 import cv2
 from paddleocr import PaddleOCR
+import difflib
+
+
+# def crop_provisional_diagnosis(img, ocr_results):
+#     for line in ocr_results:
+#         for word_info in line:
+#             text = word_info[1][0].lower()
+#             if "provisional diagnosis" in text:
+#                 bbox = word_info[0]
+#                 x_min = int(min([point[0] for point in bbox])) + 100
+#                 y_min = int(min([point[1] for point in bbox])) - 20
+#                 x_max = int(max([point[0] for point in bbox])) + 1000
+#                 y_max = int(max([point[1] for point in bbox])) + 30
+
+#                 cropped_img = img[y_min:y_max, x_min:x_max]
+#                 return cropped_img
+#     return None
 
 def crop_provisional_diagnosis(img, ocr_results):
+    target_text = "provisional diagnosis"
+    
     for line in ocr_results:
         for word_info in line:
             text = word_info[1][0].lower()
-            if "provisional diagnosis" in text:
+
+            # Fuzzy matching to check similarity between detected text and 'provisional diagnosis'
+            similarity = difflib.SequenceMatcher(None, text, target_text).ratio() * 100
+            
+            if similarity >= 90:  # Accepting similarity of 90% and above
                 bbox = word_info[0]
                 x_min = int(min([point[0] for point in bbox])) + 100
                 y_min = int(min([point[1] for point in bbox])) - 20
