@@ -15,7 +15,7 @@ def extract_text_from_image(image_path):
             "role": "user",
             "content": [
                 {"type": "image", "image": image_path},
-                {"type": "text", "text": "Extract provisional diagnosis value from the image and apply contextual meaning to the extracted text"},
+                {"type": "text", "text": "Extract provisional diagnosis value from the image"},
             ],
         }
     ]
