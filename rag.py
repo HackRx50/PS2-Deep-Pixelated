@@ -19,20 +19,22 @@ context = ", ".join([f"({t[0]}, {t[1]}, {t[2]})" for t in triples])
 
 # Improved QA prompt to restrict the model to only answer from the graph and suggest the apt ICD-10 codes
 qa_generation_template = """You are an AI Agent specialized in retrieving relevant information about ICD-10 coding.
-The user has provided a provisional diagnosis, and your task is to suggest the most appropriate ICD-10 codes based on the graph context.
-Codes and descriptions from semantic search are provided in the context.
+The user has provided a provisional diagnosis, and your task is to suggest the most appropriate ICD-10 code based **only** on the graph context provided.
 The codes and their descriptions are provided as [c: code, d: description, ...].
 
 Instructions:
 - Analyze the provisional diagnosis provided by the user.
-- Return the most relevant code and their descriptions (if any) from the context.
-- Do not return the prompt, the question, or the context, just the answer.
+- **Return only the most relevant code and its description from the context.**
+- **Your answer must be based solely on the codes and descriptions provided in the context. Do not use any external information.**
+- Do not return the prompt, the question, or the context; just provide the code and description.
 
-Question: {question}
+Provisional Diagnosis: {question}
 Context: {context}
 
 Answer:
 """
+
+
 
 # Improved entity extraction prompt to extract only nodes and edges relevant to the provisional diagnosis from the graph
 entity_prompt_template = """You are tasked with extracting relevant ICD-10 codes from a graph based on a provisional diagnosis.
@@ -46,6 +48,7 @@ Please provide the extracted codes and their descriptions, along with relationsh
 
 Extracted Entities:
 """
+
 
 # Define the prompt template instances
 qa_generation_prompt = PromptTemplate(
