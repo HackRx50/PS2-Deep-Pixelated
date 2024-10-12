@@ -5,12 +5,12 @@ a Before
 ’d Changed  
 ’s Changes  
 √(‘d) Check (ed)  
-↓ Decreased; lowered; down  
+↓ Decreased lowered down  
 = Equals  
 > Greater than  
 ‘ Foot 
 “ Inches  
-↑ Increased; elevated; up  
+↑ Increased elevated up  
 < Less than  
 % percent  
 m Minim  
@@ -397,7 +397,7 @@ DYS1  Dysphagia level 1 diet
 DYS2  Dysphagia level 1 diet 
 DYS3  Dysphagia level 3 diet  
 DYS4  Dysphagia level 4 diet  
-e (followed by a word)  Indication for an electronic for mat; example  eMAR  
+e (followed by a word)  Indication for an electronic for mat example  eMAR  
 E Epidural  
 EFS Enterprise Flowsheet System  
 E-stim Electrical Stimulation  
@@ -1333,7 +1333,6 @@ UTI Urinary tract infection
 UTS Utility tub seat  
 UVC  Umbilical Venous Catheter  
 UVL Umbilical venous line  
-V Five 
 V-P Visual perceptual  
 VH Visual Hallucinations  
 V.I.P.  Very important person  
@@ -1397,3 +1396,910 @@ Yr (s)  Years
 Z Z-track  
 z&c Zero and calibrate  
 ZIFT  Zygote intra -fallopian transfer  
+A.D. as directed
+A.S.H.E. A Safe Home for Everyone
+A/L anterior lateral
+a/v atrial-ventricular
+aao awake/alert/oriented
+aarom active assistive range of motion
+AAS Ashe Alternative School
+ab abortion miscarriages
+abbr abbreviations
+abd abdomen
+abdu abduction
+ABS antibody screen
+abx antibiotics
+atb antibiotics
+ac before meals
+ACHD Ashe County Health Department
+ACHS Ashe County High School
+ACMS Ashe County Middle School
+ACPC Ashe County Partnership for Children
+ACRRC Ashe County Resource & Referral Center
+ACS American Cancer Society
+ACTA Ashe County Transportation Authority
+ad lib freely
+ADA American Diabetic Association
+add adduction
+ADD Attention Deficit Disorder
+ADDS Ashe Developmental Day School
+ADHD Appalachian District Health Department attention deficit hyperactive
+ disorder
+ADL activities of daily living
+adm admit
+admin administration
+adv advisory advise advised
+AFDC Aid for Families with Dependent Children
+AFI amniotic fluid index
+AFP Alleghany Family Practice
+AFV amniotic fluid volume
+AGA appropriate for gestational age
+AGE acute gastro enteritis
+AGUS atypical glandular cells of undetermined significance
+2
+AHS Alleghany High School
+AIDS Acquired Immunodeficiency Syndrome
+aka above knee amputation
+Alb albumin AlMH Alleghany Memorial Hospital
+ALS amyotrophic lateral sclerosis
+alt alternate
+am morning
+AM Assoc. Ashe Medical Associates
+AMA against medical advice
+AMAP as much as possible
+amb ambulatory ambulation
+AMH Ashe Memorial Hospital
+amnio amniocentesis
+amt amount
+ans answer
+ans.mach answering machine
+ant anterior
+ap apical pulse
+APCC Ashe Pregnancy Care Center
+APP alternating pressure pad
+app applicator application
+approx approximately
+appt appointment
+Apr April
+Apt apartment
+Aq H2O water
+AOM acute otitis media
+ARC Ashe Really Cares
+AROM artificial ruptured membranes
+artic articulate
+as tol as tolerated
+ASA Ashe Services for Aging aspirin
+ASAP as soon as possible
+ASCUS atypical squamous cells of undetermined significance
+ASCVD atherosclerotic cardiovascular disease
+ASQ Ages and Stages Questionnaire
+ASU Appalachian District Health Department
+ATC around the clock
+Aug August
+auth authority authorize
+ax axillary
+Azith Azithromycin B
+b/b bowel and bladder
+b/c because
+B/F black female
+B/M black male
+b/w. bet between
+BAC Braxton Hicks contractions
+3
+B continued
+Bact. Bacteria
+BBB bundle branch block
+BC birth control
+BCCCP breast and cervical cancer program
+BCP birth control pills
+bd board
+BF breast feeding
+BH Braxton Hicks
+bic biceps
+bid twice a day
+bil bilateral
+bk black
+bka below knee amputation
+bkf breakfast
+bl blood
+bldg bleeding or building
+BLE bilateral lower extremity
+BLL bilateral lower lobes
+b/s blood sugar
+bm bowel movement
+BMI body mass index
+BOM bilateral otitis media
+BOW bag of waters
+BP blood pressure
+BRP Blue Ridge Pediatrics
+BPH benign prostate hypertrophy
+BPP biophysical profile
+Br bathroom
+BRAT bananas, rice, applesauce & toast diet
+BRB bright red bleeding
+brp bathroom privileges
+BS bowel sounds
+bsc bedside commode
+BSO bilateral salpingo oophorectomy
+BSOM bilateral serous otitis media
+BTB breakthrough bleeding
+BTL bilateral tubal ligation
+BUE bilateral upper extremities
+BUN blood urea nitrogen
+BUQ bilateral upper quadrant
+BV bacterial vaginosis
+bx biopsy C
+C&S culture and sensitivity c with
+c. cup
+c/c colony count
+c/o complaints of
+C1 first cervical spine, etc
+4
+C2, etc second cervical spine, etc
+ca Ca cancer
+Ca+ calcium
+CABG coronary artery bypass graft
+CAD coronary artery disease
+cal calorie
+CAP Community Alternative Program /or Corrective Action Plans
+caps capsule
+cath catheter,catheriterized
+CB child birth
+CBC complete blood count
+CBE child birth education or Complete Breast Exam
+cbr complete bedrest
+cc cubic centimeter chief complaint
+CC4C Care Coordination For Children CCR&R Child Care Resource & Referral
+CCU cardiac care unit
+CD communicable disease
+CDC Centers for Disease Control
+CDI clean, dry, intact
+cert certification
+cg caregiver
+CHB complete heart block
+CHD coronary heart disease
+chemo chemotherapy
+CHF congestive heart failure
+CHI closed head injury
+Chl chloride chlamydia
+CHO carbohydrate
+chol cholesterol
+cig cigarette
+circ circumcision
+Cl clinic
+cm centimeter
+CNA certified nurse assistant
+cnt could not test
+C02 carbon dioxide
+COA Council on Aging
+col colony colonies
+colpo colposcopy
+comp complications
+compl complete
+cond. condition
+conf conference
+const constipation
+cont continuous continue
+contx contractions
+coord coordinate
+COPD chronic obstructive pulmonary disease
+COR heart coronary
+cp chest pain care plan
+5
+CPD cephalopelvic disproportion
+CPE complete physical exam
+CPR Cardiopulmonary resuscitation
+CPS Child Protective Services
+Creat. cl creatine clearance
+cryo cryosurgery
+CSC Child Service Coordination
+C-Section C-Sec c/s Cesarean Section
+csf cerebral spinal fluid
+CSHS Children’s Special Health Services
+CT,CAT Computerized Tomography/Computerized Axial Tomography
+CTA clear to auscultation
+cv clinic visit
+CVA cerebral vascular accident
+CVD cardiovascular disorder
+CVHD cardiovascular heart disease/disorder
+CVS chorioni villi sampling
+cx cervix
+CXR chest x ray
+up check up
+D
+d day
+D&C Dilation and curettage
+d/c discharge discontinue
+d/t due to
+D/V diarrhea/ vomiting
+da day
+DC discharge discontinue
+DDD degenerative disk disease
+DDS dentist
+DDST/DDSTII Denver Developmental Screening Test
+Dec December
+dec decreased
+del delivereddelivery
+deltD deltoid
+demo demonstrate
+dep dependent
+Depo Depo Provera injection
+Dept Department
+dev develop developmental
+df dorsiflexion
+DHHS Department of Health & Human Services
+diff differential different
+dil dilation dialation
+dir direction(s)
+Dir Director
+dis disorder
+disc discontinue
+DJD degenerative joint disease
+6
+DM diabetes mellitus
+DNKA did not keep appointment
+DNR do not resuscitate
+DNT did not test
+DOA dead on arriva
+l
+DOB date of birth
+DOE dyspnea on exertion
+Dr doctor
+dr drain
+dmg drainage
+drsg dressing
+DS drug store
+DSD dry sterile dressing
+DSS Department of Social Services
+DT Pediatric, Diphtheria Tetanus
+DTAP Diphtheria, Tetanus, Acellular Pertussis
+DTP Diphtheri
+a, Tetanus, Pertussis
+DT’s delirium tremens
+DUB dysfunctional uterine bleeding
+DVT deep vein thrombosis
+dx diagnosis
+dz disease
+E
+/EA energy assistance
+ec empty calorie
+ECC endocervical curettage
+ECF extended care facility
+ECHO echocardiogram E-coli Escherichia Coli
+ECV External cephalic version
+ED eating disorder
+edEd educate education
+EDC expected date of confinement
+EDD expected due date
+edu educ educate education
+EEG electroencephalogram
+EENT ear, eyes, nose and throat
+EGA estimated gestational age
+elem elementary
+elix elixir
+emer emergency
+enc encouraged
+ENT ears, nose, throat
+EOMI extra ocular movement intact
+ER Employment
+ESC Employment Security Commission
+ESRD end stage renal disease
+et. al. and others
+7
+ETOH alcohol
+ETOHism alcoholism
+eval evaluation
+ex exer exercise
+exam examine examination
+ext extension
+ext rot external rotation
+F
+F female
+F&C foam & condom
+F/U follow up
+FA folic acid
+fam family
+FBD fibrocystic breast disease
+FBS fasting blood sugar
+FD fetal distress
+fdg(s) feedings
+Fe iron
+Feb February
+FeSo4 Iron Sulfate
+FF force fluids
+FH fundal height
+FHR fetal heart rate
+FHT fetal heart tone
+Fl flouride
+fib fibrillation
+fld fluid
+flex flexion
+FMH Forsythe Memorial Hospital
+FNP Family Nurse Practitioner
+FOB father of the baby
+FOCUS find, organize, clarify, understand, select
+foley foley catheter
+FP family planning
+FPNS family planning nurse screening
+Fr French (catheter size)
+freq frequency
+fr/jce fruit juice
+Fri Friday
+FRS Family Resource Center
+FS food stamps
+FSBS finger stick blood sugar
+ft foot feet
+FT finger tip
+FTP failure to progress
+8
+FTT failure to thive
+FUO fever of unknown origin
+FWB full weight bearing
+Fx fracture G G gravida
+ga gauge
+GA gestational age
+gal gallon
+GB gallbladder
+GBS Group B Strep
+GC gonorrhea culture
+GDM GD gestational diabetes
+GED General Education Diploma General Equivalency Diploma
+gen general
+GERD gastro esophageal reflux disease
+gest gestation
+GI gastrointestinal
+glucglu glucose
+gm gram
+gr grain
+GS glucose screen
+GSW gunshot wound
+gt gait
+gtt drops G-tube gastrostomy tube
+GU genitourinary
+gyn gyncological H
+H Ed health educator health education
+H&P history and physicial
+H.Sch HS high school
+H/O handout
+HHosp Hospice
+H2O water
+H2O2 hydrogen perxoide
+HA headache
+hbv high biological value
+HC Hunger Coalition Health Check
+HCC Health Check Coordinator
+HCFM High Country Family Medicine
+HCHC High Country Health Care
+HCMH Hugh Chatham Memorial Hospital
+HCPC Hope Crisis Pregnancy Center
+Hct hematocrit
+HD Health Department
+HEENT head, eyes, ears, nose, throat
+9
+hemi hemiplegia
+Hep A Hepatitis A vaccine
+Hep B Hepatitis B vaccine
+Heplock Heparin lock
+hgb hemoglobin
+HGSIL high grade squamous intraepithelial lesion
+HH home health
+HHA Home Health Agency
+Hib Hemophilus influenza b conjugate vaccine
+HIV Human Immunodeficiency Virus
+hlth health
+hosp hospital
+HPV human papilloma virus
+HR High Risk
+hr hour
+HS hour of sleep high school nigh
+HSD high school diploma
+HSM hepatosplenomegaly
+ht height
+HTN hypertension
+HUD Housing and Urban Development
+HUS hemolytic uremic syndrome
+HV home visit
+Hx hx history
+hyper in excess
+hypo less than I
+I&D incision and drainage
+I&O intake and output
+i.e. for example
+IBCLC International Board Certified Lactation Consultant
+IBS irritable bowel syndrome
+IBW ideal body weight
+IC infection control
+ICF intermediate care facility
+ID identify identification
+IDDM insulin dependent diabetes mellitus
+IFC infant feeding
+IM intramuscular
+imm immunization
+immun immunization
+imp improved
+in inch
+inappr inappropriate
+Inc incorporated
+ind induction
+info information
+inj injection
+ins insulin insurance
+INT IV lock
+10
+int rot internal rotation
+IPPB intermittent positive pressure breathing
+IPV injectable polio vaccine
+irr irregular
+isol isolation
+isom isometric
+IUD Intrauterine Device
+IUGR intrauterine growth retardation
+IUP intrauterine pregnancy
+IV intravenous
+IVP intravenous pylogram J
+Jan January
+jt joint J-tube Jejunostomy tube
+JVD juglar venous distention K
+K+ Potassium
+Kcal kilocalorie
+kg kilogram (1000 grams)
+kid kidney
+KUB kidney, ureter, bladder L L left living
+L lt left
+L/D labor /delivery
+L/T/C long, thick, closed
+L1
+-L5 lumbar 1
+-
+5
+lab laboratory
+LAB laboratory results or interpretation
+lang language
+lat lateral
+LAT left anterior thigh
+lax laxative
+lb pound LBP lowback pain
+LCSW Licensed Clinical Social Worker
+LD learning disability
+LDN licensed dietitian nutritionist
+LE lower extremities
+LEEP Loop electrosurgical excision procedure
+leuk. leukocytes
+LFA left forearm
+lg large
+LGA large for gestational age
+LGSIL low grade squamous intrapithelial lesion
+lig ligament
+liq liquid
+11
+lit literature
+LLE left lower extremity
+LLL left lower lobe
+LLQ left lower quadrant
+LMP last menstrual period
+LNMP last normal menstrual period
+LOC level of consciousness
+LOM left otitis media
+LOS length of stay
+LPN Licensed Practical Nurse
+LRI lower respiratory infection
+LS lumbosacral
+LSOM left serous otitis media
+LT left thigh
+lt length
+LTCS low transverse Caesarean section
+LUE left upper extremity
+LUL left upper lobe
+LUOQ left upper outer quadrant
+LUQ left upper quadrant
+LVL left vastus lateralis
+lytes electrolytes M m murmur M male
+M/N midnight
+M’aid Medicaid
+Mar March
+mat maternity
+max maximum
+MC MasterCard
+M’Care Medicare
+MCC Maternal Care Coordinator Maternal Care Coordination
+MCH maternal and child health
+MD medical doctor
+med medication
+mess message
+met metastic
+mg milligram
+MGF maternal grandfather
+MGM maternal grandmother
+MH Maternal health Mountain Hearts mobile home
+MI myocardial infarction
+micro microscopic
+min minimum minute
+MJFM Mount Jefferson Family Medicine
+ml millimeter (1/1000 of liter)
+mm millimeter
+MMGM mammogram
+MMR Measles, Mumps, Rubella Vaccine
+MMRV Measles, Mumps, Rubella, Varicella vaccine
+12
+MNT medical nutrition therapy
+mo month
+MOA medical office assistant
+mod moderate
+Mon Monday
+mono mononucleosis
+MOPS mothers of preschoolers
+MOW Maternal Outreach Worker
+MPD multiple personality disorder
+MPW Medicaid for Pregnant Women
+MRI magnetic resonance imaging
+MS multiple sclerosis
+MSAFP maternal serum alpha fetoprotein
+MSW Masters in Social Work
+mus muscle
+MVA motor vehicle accident
+MVI multivitamins
+mvt movement N N no
+N/C V no charge visit
+N/G nasogastric
+N/S normal saline
+N/V nausea and vomiting
+NA not applicable not assessed
+Na+ Sodium
+NaCl salt
+NAD no acute distress
+NAS no added salt
+NB newborn
+NCBH North Carolina Baptist Hospital
+NCIR North Carolina Immunization Registry
+neuro neurological
+NIA no irregular antibodies
+NIDDM non insulin dependent diabetes
+NKA no known allergies
+nl normal
+Nov November
+NP Nurse Practitioner
+NPO nothing by mouth
+NR no reaction non reactive
+NRBHC New River Behavioral Health Care
+NS nurse screen
+NSAID nonsteroidal antinflammatory drugs
+nsg nurse
+NSR normal sinus rhythm
+NST non stress test
+NSVD normal spontaneous vaginal delivery
+NTG Nitroglycerin
+NTS neural tube screening
+13
+Nutr Nutritionist
+NWB non weight bearing O O objective
+O&P ova and parasites
+O2 Oxygen
+OA osteoarthritis
+OASIS Opposing Abuse with Services, Information and Shelter
+OB Obstetrics, Obstetrician
+OBCM Obstetric Care Manager
+OBS organic bran syndrome
+obst obstruction
+OC oral contraceptive
+occ occasional
+OCD obsessive compulsive disorder
+Oct October
+OCT oxytocin challenge test
+OD right eye
+ofc office
+oint ointment
+OJ orange juice
+OM otitis media
+OOB out of bed
+OP out patient
+OPV oral polio vaccine
+OS O’Sullivan Screen
+os left eye
+OT Occupational Therapy
+OTC otc over the counter ortho tricyclen
+OU both eyes
+OV
+office visit
+oz ounce P P Plan para p pulse
+P&V prenatal vitamins
+P/P/D (also) pack per day
+PA Physician’s Assistant
+PAC premature atrial contraction
+PACT Parents and Teachers together
+Pap Test papanicolaou test
+para paraplegic
+pass passive
+PAT Parents as Teachers
+pbj peanut butter and jelly
+pc after meals
+PC Primary Care
+PCC Patient Care Coordinator Coordination
+14
+PCG Patient Care Giver
+PCMH Primary Care Medical Home
+PE physical exam
+peds pediatrics
+PERRL PERRLA pupils, equal, react to light accommodatio
+n
+PFC Partnership for Children
+PGF paternal Grandfather
+PGM paternal Grandmother
+ph measure of alkalinity
+PHN Public Health Nurse
+phys physician
+PID pelvic inflammatory disease
+pkg package
+pkt packet
+PKU phenylkentonuria
+pm afternoon
+PMH Pregnancy Medical Home
+PNC pre-natal client
+po by mouth per os (per mouth)
+POC plan of care
+pos positive
+post posterior
+post
+-op postoperative
+POT plan of treatment
+PP postpartum
+PPBS 2 hour post prandial blood sugar ppd pack per day
+PPD purified protein derivation
+prec precautions
+preg pregnancy
+pre
+-op preoperative
+prep preparation prepare
+pres prescription
+prev previous
+prn whenever necessary
+pro T protime
+pro prot protein
+prob problem
+prod pro productive
+prog progress
+PROM premature rupture of membranes
+pron pronate
+pros prosthesis
+PSA prostate specific antigen
+pt patient
+PT Physical Therapy
+Pt preterm premature
+PTL preterm labor
+PTSD post traumatic stress disorder
+PTT Prothrombin time
+15
+PUD peptic ulcer disease
+pulm pulmonary
+PVC premature ventricular contraction
+pwd powder
+Px prognosis Q q every
+q am every morning
+q hs every nigh
+t
+q mo every month
+qod every other day
+qomo every other month
+qowk every other week
+qd every day
+qh every hour
+QI Quality Improvement
+qid four times a day
+qt quart
+qtl
+y quarterly
+quad quadriplegic R R rectal R right
+R/O rule out
+R/S reschedule
+r/t related to
+RA rheumatoid arthritis
+rad radiation
+RAT right anterior thigh
+RBC red blood cells
+RD Registered Dietition
+RDS Respiratory Distress Syndrome
+re recheck
+re regarding
+recd record
+rec’d received
+recert RC recertification
+re
+-eval re
+-evaluate
+ref referred referral refill
+reg regular
+rehab pot rehabilitation potential
+REP redness, edema, pain
+reps repetitions
+req require required
+resp respirations
+retic.ct reticulocyte count
+RF refill(s)
+RFA right forearm
+RH ED Registered Health Educator
+16
+RHD rheumatic heart disease
+RICE rest, ice compression, elevation
+RLE right lower extremity
+RLL right lower lobe
+RLQ right lower quadrant
+RN Registered Nurse
+ROI release of information
+ROM range of motion right otitis media ruptured membranes
+RP radial pulse
+RR red reflex
+RRR regular, rate, rhythm
+RRW rales, rhonchi, wheezes
+RSOM right serous otitis media spontaneous ruptured membranes
+RT Respiratory Therapy
+RTO return to office
+RTC return to clinic
+RUE right upper extremity
+RUL right upper lobe
+RUOQ right upper outer quadrant
+RUQ right upper quadrant
+Rx RX prescription drug renewal or decision S S subjective s without
+script prescription
+S&H speech & hearing
+S/E side effects
+S/L speech/language
+s/s signs, symptoms
+S1,etc sacral
+S1S2 heart sounds
+SAB spontaneous abortion
+SAQ short arc quad
+sat saturated
+Sat Saturday
+SBE self breast exam
+SBHC School Based Health Center
+SSC size, shape, configuration
+sch scheduled, school
+SCI spinal cord injury
+SGA small for gestational age
+SGOT serumglutamic oxaloacetic transaminase
+shdr shoulder
+sig write, let it be written
+S continued
+SKB Smith Kline Beecham
+17
+sl slight
+SLE systemic lupus erythematosis
+SLP Speech Language Pathologist
+sm small
+smkg smoking
+SN skilled nursing
+SNF skilled nursing facility
+SNV Skilled nursing visit
+s/o symptoms of
+SOB shortness of breath
+SOC start of care
+sol solution
+som serous otitis media
+sono sonogram
+SOS emergency
+sp speech
+s/p status post or same phone
+SPab status post abortion
+spec specimen
+sq subq subcutaneous
+SS Social Security Smart Start
+SSE soap suds enema
+SSI supplemental income
+SSN Social security number
+SSS sick sinus syndrome
+sta
+t at once
+STD’s sexually transmitted disease
+STE self testicle exam
+Strep Streptococcus A test
+subl sublingual
+sublux subluxation
+Sun Sunday
+sup supine
+supin supination supinate
+supp suppository
+supv supervisor
+surg surgery
+SVD spontaneous vaginal delivery
+svgs servings
+SVT supraventricular tachycardia
+SW Social Worker
+sx symptoms T
+T& A tonsillectomy and adenoidectomy
+T temp temperature
+tab tablet
+TAB therapeutic abortion
+TAH total abdominal hysterectomy
+TB tuberculosis
+T continued
+tbsp tablespoon
+18
+TC telephone call throat culture
+Td adult tetanus diptheria
+Tdap Tetanus, diptheria, acceular pertussis
+TE too early
+TEN’s transcutaneous electrical nerve stimulation
+TFT Thyroid function test
+Tg Trig triglycerides
+ThC Throat culture
+th thigh
+THR Total Hip Replacement
+Thurs Thursday
+TIA transient ischemic attack
+tid three times a day
+tinct tincture
+TKR total knee replacement
+TL tubal ligation
+TLC tender loving care
+TM tympanic membrane
+TO telephone order
+TOC test of cure
+tol tolerant
+TPR temperature, pulse, respiration
+tr trace
+trach trachea tracheotomy
+transp transportation
+Trich Trichomonas
+TRUST Test for Syphilis
+TSH thyroid stimulating hormone
+tsp teaspoon dram
+TST Tuberculin Skin Test
+Tues Tuesday
+TURP transurethral resection of prostate
+TWB tap water enema
+Tx treatment U
+U/C urine culture uterine contractions
+UA urinalysis: urine
+UCG pregnancy test
+UE upper extremities
+UGI upper gastrointestinal
+UOP urinary output
+US ultrasound
+UTA unable to access
+UTD up to date
+UTI urinary tract infection
+VA Veteran’s Hospital
+vac vaccine
+vag vaginal
+VAR Varicella
+19
+vas vasectomy
+VB vaginal bleeding
+VBAC vaginal birth after c
+-section
+VC verbal cue
+VCF vaginal contraceptive film
+veg veggies vegtables
+vent ventolater
+Vit vitamin
+VM voice mail
+VO verbal order
+vol volume
+VP venipuncture
+vs/vst visit
+VS vital signs
+vtx vertex W
+WCHD Watauga County Health Department
+WWC Watauga Women’s Center
+W.S. Winston
+-Salem workshop
+W/C wheelchair
+W/D well developed
+W/F white female
+W/M white male
+W/N well nourished
+w/o without
+WBC white blood cells
+Wed Wednesday
+WFUBMC Wake Forest University Baptist Medical Center
+WHS Watauga High School
+WIC Women, Infants & Children nutrition program
+wk week
+WMC Watauga Medical Center
+WNL within normal limits
+WPH Women’s Preventive Health
+wrd ward
+wt weight
+WTDD wet to dry dressings X _x except x times Y Y yes
+Y/O years old
+yel yellow
+YM young mothers
