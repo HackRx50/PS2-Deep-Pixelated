@@ -7,10 +7,10 @@ def crop_provisional_diagnosis(img, ocr_results):
             text = word_info[1][0].lower()
             if "provisional diagnosis" in text:
                 bbox = word_info[0]
-                x_min = int(min([point[0] for point in bbox]))
-                y_min = int(min([point[1] for point in bbox])) - 30
+                x_min = int(min([point[0] for point in bbox])) + 100
+                y_min = int(min([point[1] for point in bbox])) - 20
                 x_max = int(max([point[0] for point in bbox])) + 1000
-                y_max = int(max([point[1] for point in bbox])) + 100
+                y_max = int(max([point[1] for point in bbox])) + 30
 
                 cropped_img = img[y_min:y_max, x_min:x_max]
                 return cropped_img
