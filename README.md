@@ -5,9 +5,6 @@
   <p>Avi Gupta, Kartikey Bhatnagar, Vaishali Singh</p>
 </div>
 
-
-![Description](https://drive.google.com/uc?export=view&id=177IIK5xUz6e3Fq5EcUZePSlDQFUbFyXk)
-
 ## Installation
 To set up the project and install all required libraries, follow these steps:
 ### 1. Clone the Repository
