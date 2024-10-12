@@ -41,8 +41,11 @@ Once everything is set up, you can run the project using:
 
 ## 2. Problem Statement
 Develop a solution to accurately extract medical diagnoses from handwritten medical forms to digitize medical forms and improve the efficiency as well as accuracy of claims processing.
+LEVEL:1
 Requirements: Implement a system to recognize and identify medical diagnoses from handwritten input medical forms.
 Extract the value of each identified diagnosis on the handwritten form.
+LEVEL:2
+Requirements: Develop a post-extraction correction system to identify and fix any inaccuracies or errors in the extracted values. This is particularly important for handwritten values, which can be prone to misinterpretation.
 
 ## 3. Architecture
 ![Architecturelayer2](https://drive.google.com/uc?export=view&id=1cqx_fN69-DPOeEr1F5kVtqrHnswNA-yI)
@@ -55,28 +58,29 @@ Firstly, we start by inspecting the data set, to find out the text to be extract
 
 ### 4.2 Understanding the OCR model 
 On doing research, and going through various models, we found out that the pytessaract library of python, which runs the OCR model, can be used to extract the text, and hence we did a sample run of it on few of the sample images, but we did not get the expected result
+
 ![step2](https://drive.google.com/uc?export=view&id=1s2yW_WFP1BaudWfFuYJa_Qk2DKhB9jUc)
 ![stp2.1](https://drive.google.com/uc?export=view&id=18d3WHA8iZD5byOA06Lcv_hDpji-qu-m-)
 
 ### 4.3 Extraction and cropping of only the Region of Interest (ROI)
-And to further improve the accuracy, we decided to alter our model such that it will first detect the ROI using the EasyOCR model, and then will crop that from the image
+And to further improve the accuracy, we decided to alter our model such that it will first detect the ROI using the PeddalOCR model, and then will crop that from the image, giving us just the provisional diagnosis
 
-![step3](https://drive.google.com/uc?export=view&id=1JF_N8Yud9enriZedtlcqrPwpP0DfHms4)
-![step3.1](https://drive.google.com/uc?export=view&id=1_OlX27CMdk0Z0BLxKtFYTb5nBPaSEsvh)
+![step3](https://drive.google.com/uc?export=view&id=1WQEA6wOKb4AvEtWH48W_6aUm11SG29Vl)
+![step3.1](https://drive.google.com/uc?export=view&id=1-N0cH-U_I1yO-oAG4iF8MNs9eXUlk3fI)
 
 ### 4.4 Processing of the image
 Then the cropped image is further cleaned, by making it grayscale, enhancing it’s contrast, and also by binarization 
-![step4](https://drive.google.com/uc?export=view&id=1ehqmaxXqbYyfQ9LbV1rUn1wVmpqiHp93)
+![step4](https://drive.google.com/uc?export=view&id=1VuJzKD6AprVM3n8fWK3BP4ow0Co351L3)
 
-### 4.5 Extracting the text, and storing it in excel file
-After the cleaning, the handwritten text is being extracted using the TrOCR model, and then we further clean the extracted text as well, and then save them all in the excel file, in the required format
+### 4.5 Extracting the text
+After the cleaning, the handwritten text is being extracted using the Qwen/Qwen2-VL-2B-Instruct model
 
 ![step5](https://drive.google.com/uc?export=view&id=1_QSLINjJTSPAP7p7dBEB7GmsMYDynTTt)
 
-### 4.6 Additional feature 
-We have also added a function, which converts the image of any format (png/jpeg) into jpg, so that the user can directly upload it, and not worry about it’s format 
+### 4.6 Preprocessing of extracted text 
+The extracted text is further cleaned and preprocessed
+One key challenge we address is the use of abbreviations in medical terminology. To resolve this, we implement fuzzy matching against a curated dataset of medical terms, and then the text is stored into the excel file
 
-![step6](https://drive.google.com/uc?export=view&id=1izCBZ4EQJrdncYxGzHHUAg3vr4jeTC_G)
 
 ## 5. USP of Our Solution
 1. High-Precision Extraction
