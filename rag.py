@@ -27,8 +27,7 @@ The codes and their descriptions are provided as [c: code, d: description, ...].
 
 Instructions:
 - Analyze the provisional diagnosis provided by the user.
-- Return the 3 most relevant codes and their descriptions (if any) from the context.
-- Provide your reasoning for why each code is relevant.
+- Return the most relevant code and their descriptions (if any) from the context.
 - Do not return the prompt, the question, or the context, just the answer.
 
 Question: {question}
