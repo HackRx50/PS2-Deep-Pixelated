@@ -1,0 +1,1399 @@
+@ At 
+& And 
+a Before  
+ Change  
+’d Changed  
+’s Changes  
+√(‘d) Check (ed)  
+↓ Decreased; lowered; down  
+= Equals  
+> Greater than  
+‘ Foot 
+“ Inches  
+↑ Increased; elevated; up  
+< Less than  
+% percent  
+m Minim  
+- Negative  
+ No, none  
+Ť One 
+1:1 One-to-one therapy  
++ Positive  
+// parallel bars  
+? Question, unknown  
+→ resulting  
+ŤŤŤ Three  
+↔ to from  
+ ŤŤ Two 
+c With  
+s Without  
+(R) Rectal  
+(s) Supervision  
+o Degree  
+1° Primary  
+1° AVB  First Degree Atrio -Ventricular Block  
+1st First 
+2D Echo  Two Dimensional Echocardiogram  
+2° Secondary  
+2° AVB  Second Degree Atrio -Ventricular Block  
+2nd Second  
+3° AVB  Third Degree Atrio -Ventricular Block  
+3rd Third  
+4th Fourth  
+4x4 4 inch by 4 inch sterile gauze  
+dressing  
+5th Fifth 
+A Assistance  
+AA Alcoholics Anonymous  
+AAA Abdominal Aortic Aneurysm  
+AAROM  Active Assisted Range of Motion  
+Abx Antibiotics  
+AB Abortion  
+Ab Antibody  
+Ab Scrn  Antibody Screen  
+Abd Abdomen  
+ABG  Arterial blood gases  
+ABR Auditory Brainstem Response  
+AC Auditory Comprehension  
+ac Before meals  
+Acc Accuracy  
+Accel  Acceleration  
+ACE Angiotensin Converting Enzyme  
+ACL Anterior cruciate ligament  
+ACLS  Advanced Cardiac Life Support  
+ACS Acute Coronary Syndrome    
+ADA American Diabetic Association  
+ADB Admission Data Base  
+Add Adduction  
+ADHD  Attention Deficit Hyperactive Disorder  
+ADL Activities of daily living  
+adm Admitted as in -patient  
+adol Adolescent  
+ADP Adolescent Day Program  
+AE Adaptive Equipment  
+afeb Afebr ile 
+AFL Atrial Flutter  
+AFO Ankle - Foot Orthosis  
+AFP Alpha Feto -Protein  
+AG Abdominal Girth  
+AGA  Average/Appropriate for Gestation  
+AH Auditory Hallucinations  
+AHR  Apical heart rate  
+AI Aortic Insufficiency  
+AICD  Automatic Implantable Cardioverter Defib rillator  
+AIDS  Acquired immune deficiency syndrome  
+AIMS  Abnormal Involuntary Movement Scale  
+AJ Ankle jerk  
+AK Above knee  
+AKA Above -knee amputation  
+AKI Acute Kidney Injury  
+AlA Arthroscopy / arthrotomy  
+AlC Acromioclavicular  
+ALRI  Anterior lateral rotat ory instability  
+ALS Advanced Life Support  
+AM Morning  
+AMA  Against Medical Advice  
+amb Ambulatory  
+AMI Acute Myocardial Infarction  
+Amnio  Amniocentesis  
+amp Ampule  
+AMRI  Anterior medial rotatory instability  
+amt Amount  
+anes  Anesthesiology/Anesthesia  
+Angio Angiogram  
+ANS Autonomic Nervous System  
+ant Anterior  
+A&O  Alert & Oriented  
+A&P Auscultation and Percussion  
+AO Aorta  
+AODM  Adult Onset Diabetes Mellitus  
+AP Anterior -posterior  
+A/P Repr  Anterior Posterior Repair  
+AP & Lat  Anteroposterior & Lateral  
+APB Abductor Pollicis Brevis  
+APL Abductor Pollicis Longus  
+approp  Appropriate  
+approx  Approximately  
+appt Appointment  
+Appy  Appendectomy  
+APRN  Advanced Practice RN  
+APS Adult Protective Services  
+aq Aqueous  
+AR Aortic Regurgitation  
+ARDS  Adult/Acute Respira tory Distress 
+Syndrome  
+ARF Acute Renal Failure  
+AROM  Active Range of Motion  
+art Arterial  
+AS Aortic Stenosis  
+as tol  As Tolerated  
+ASA Aspirin, Acetylsalicylic Acid  
+ASAP  As soon as possible  
+ASCVD  Arteriosclerotic Cardiovascular Disease  
+ASD Atrial Sept al Defect  
+ASHD  Arteriosclerotic heart disease  
+AT Activities therapy  
+ATC Activity Therapy Clinician  
+at fib  Atrial fibrillation  
+ATA Atmosphere Absolute  
+ATB Antibiotics  
+ATN Acute Tubular Necrosis  
+ATT Anterior tibial tendon  
+attn Attention  
+ATV All Ter rain Vehicle  
+aud Audible  
+aug Augmentation  
+AV Atrioventricular  
+avg Average  
+AVR Aortic Valve Replacement  
+Ax Axillary  
+B Both 
+B/B Bowel and bladder  
+BBOW  Bulging Bag of Water  
+B/O Because of  
+Bo Bottle  
+BA Brachial Artery  
+bal Balance  
+BB Backward Bend ing 
+BBB Bundle Branch Block  
+BBS(CE)  Bilateral Breath Sounds Clear & Equal  
+b/c because  
+BCC  Basal Cell Carcinoma  
+BCG  Bacille Calmette -Guerin  
+BCLS  Basic Cardiac Life Support  
+BCS Behavioral Care Services (Psych)  
+BE Barium Enema  
+Bf Boyfriend  
+BG Blood Glucose  
+B-HCG  Beta Human Chorionic Gonadotropin  
+bid Twice a day  
+bil Bilateral  
+Bili Bilirubin  
+Bio Biological  
+BIS Bispectral Index  
+BIT Behavioral Inattention Test  
+BK Below knee  
+BKA Below -knee amputation  
+BKO  Below Knee Orthosis  
+Bld Blood  
+Bld Cult  Blood Culture  
+bldng  Bleeding  
+BLS Basic Life Support  
+BM Bowel movement  
+BMI Body Mass Index  
+BMR  Basal Metabolism Rate  
+BMT  Bilateral myringotomy tubes  
+BNA Brief nutritional assessment  
+BOH  Back of Hand  
+BOS  Base of Support  
+BOW  Bag of water  
+B/P Blood pressure  
+BPD Bi-Parietal Diameter  
+BPH Benign prostatic hypertrophy  
+BPM  Beats per minute  
+BPP Bilateral pedal pulse  
+Br Breast  
+Br-Hold Breath Hold  
+br sounds  Breath Sounds  
+Brady  Bradycardia  
+BRB Bright Red Blood  
+bro Brother  
+BRP Bathroom Privileges  
+BS Bowel Sounds  
+B/S Bedside  
+BSA Body Surface Area  
+BSC Bedside commode  
+BSO  Bilateral salpingo oophorectomy  
+Bst Boost  
+Bst+ Boost plus  
+BTL Bilateral Tubal Ligation  
+BUFA  Baby Up For Adoption  
+BVM  Bag Value Mask  
+bwd Backward  
+bx Biopsy  
+c Cup 
+C_ Cervic al (with vertebral level)  
+C/A Cardiac and Apnea  
+C/D Clean and Dry  
+C/D/I  Clean, Dry & Intact  
+c/o Complain of  
+CA Cancer  
+CABG  Coronary artery bypass graft  
+CAD  Coronary Artery Disease  
+Cal Calorie  
+calc Calculation  
+calib Calibration  
+Cap Capsule  
+CAPD  Continuous Ambulatory Peritoneal 
+Dialysis  
+cath Catheter (ization)  
+CAVH  Continuous Arterio -venous 
+Hemofiltration  
+CBC  Complete blood count  
+CBI Continuous bladder irrigation  
+CC Chief Complaint  
+CCLS  Certified Child Life Specialist  
+CCMS  Clean catch mid s tream  
+CCTA  Cardiac CT Angiography  
+CDI Child Depression Inventory  
+CDP  Child Day Program  
+oC Degree Centigrade  
+ceph  Cephalic  
+cerv Cervical  
+CF Cystic Fibrosis  
+CGA  Corrected Gestational Age  
+Cgh Cough  
+Ch Chair  
+CHA  Community Hospital Anderson  
+CHD  Cong enital heart disease  
+CHE  Community Hospital East  
+Chemo  Chemotherapy  
+CHF Congestive heart failure  
+CHI Community Hospital Indianapolis  
+CHN  Community Hospital North  
+CHO  Carbohydrate  
+Chol Cholesterol  
+Chr Chronic  
+CHS  Community Hospital South  
+CI Cardia c Index  
+CI/Comm  Closed, comminuted  
+cine Cineangiogram  
+circ Circumcision  
+CKD Chronic Kidney Disease
+cl Clear  
+clav Clavicle  
+cldy Cloudy  
+CLRT  Continuous lateral rotation therapy  
+CLS Community Living Skills  
+cm Centimeter  
+cmpd  Compound  
+CMS  Circulation, Motion, Sensation  
+CMV  Cytomegalovirus  
+CNS  Central Nervous System  
+CO Cardiac Output  
+COA  Council on Aging  
+cog Cognitive  
+COLD  Chronic obstructive lung disease  
+comf  Comfortable  
+cond  Condition  
+cong  Congestion  
+cont Continue/continuous  
+contr  Contraction  
+Conv  Conventional  
+coor Coordination  
+COPD  Chronic obstructive pulmonary disease  
+CP Chest Pain  
+CPAP  Continuous Positive Airway Pressure  
+CPC  Clinicopathological Conference  
+CPD  Cephalopelvic Disproportion  
+CPM  Continuous Passive Motion  
+CPP Cerebral Perfusion Pressure  
+CPR  Cardiopulmonary resuscitation  
+CPS Child Protective Services  
+CPT Chest Physiotherapy  
+CR Cardiorespiratory  
+Crani  Craniotomy  
+CRF Chronic Renal Failure  
+CRI Chronic Renal Insufficiency  
+CRIT  Critical Care  
+crpt Croupette  
+CRRT  Continuous Renal Replacement 
+Therapy  
+C & S  Culture & Sensitivity  
+C-Sect Cesarean section  
+CSII Continuous subcutaneous infusion 
+insulin  
+CST Contraction Stress Test  
+CT Cat scan  
+CTA Computed Tomography Angiography  
+CTR Carpal Tunnel Release  
+CTS Carpal Tunnel Syndrome  
+cult Culture  
+CV Cardiovascular  
+CVA Cerebral Vascular Accident  
+CVAT  Costovertebral Angle Tenderness  
+CVC  Central venous catheter  
+CVD  Cardiovascular Disease  
+CVP Central venous pressure  
+CVS Cardiovascular System  
+CVVH  Continuous Venous -venous 
+Hemofiltration  
+CVVHD  Continuous veno -venous 
+hemodialysis  
+CVVHDF  Continuous Veno -venous 
+Hemodiafiltration  
+cx Cervix  
+CXR  Chest x -ray 
+Cysto  Cystoscopy  
+d Day 
+DA Descending Aorta  
+DAP Data, Assessment, Plan  
+DAR  Data, Action, Response  
+DAT Diet as tolerated  
+dau daughter  
+D & C Dilation & Curettage  
+DM Diabetes Mellitus  
+DP Dorsalis Pedis  
+dt Diphtheria, tetanus pediatric  
+D/O Disorder  
+D/l Dry & Intact  
+D/W Distilled water  
+D_ Dorsal (with vertebral level)  
+DW Dextrose (percent) in Water  
+DBP Diastolic Blood Pressure  
+DBS Dorsal Blocking Splint  
+DC(‘d)  Discontinue(d)  
+DCA  Directional Coronary Atherectomy  
+DCC  Diabetes Care Center  
+DDX  Desmethyldoxepin  
+deb Debridement  
+decel  Deceleration  
+decomp  Decompensate  
+decr Decreased  
+decub  Decubitus  
+defib  Defibrillation  
+dehy  Dehydrat ion 
+del Delivery  
+dept Department  
+Dex Dextrostix  
+DF Dorsiflexion  
+DI Diabetes Insipidus  
+DIC Desseminated Intravascular 
+Coagulation  
+Dig. N.  Digital Nerve  
+dil Dilatation  
+DIP  Distal interphalangeal  
+dis Distal  
+disch  Discharge(d)  
+Div Divorced  
+DJD Degenerative joint disease  
+dk Dark  
+DKA Diabetic ketoacidosis  
+dl. Deciliters  
+DLC Dual Lumen Catheter  
+dly Daily  
+DME  Durable Medical Equipment  
+DNP  Do Not Publish  
+DNR  Do Not Resuscitate  
+DOA  Dead on Arrival  
+DOB  Date of Birth  
+DOE  Dyspnea on exertion  
+DOOC  Diabetes out of Control  
+DPT Diphtheria, Pertussis, Tetanus 
+Toxide Vaccine  
+Dr. Doctor  
+drng Drainage  
+drsg Dressing  
+DSD  Dry Sterile Dressing  
+DSM  Diagnostic and Statistical Manual  
+DTR Deep Tendon Reflex  
+DTs Delirium Tremens  
+DTV Due to void  
+DUB  Dysfunctional Uterine Bleeding  
+DVT Deep vein thrombosis  
+Dx Diagnosis  
+DYS Dysphagia  
+DYS1  Dysphagia level 1 diet  
+DYS2  Dysphagia level 1 diet 
+DYS3  Dysphagia level 3 diet  
+DYS4  Dysphagia level 4 diet  
+e (followed by a word)  Indication for an electronic for mat; example  eMAR  
+E Epidural  
+EFS Enterprise Flowsheet System  
+E-stim Electrical Stimulation  
+E S Extra Strength  
+eg For example  
+ESF External skeletal fixation  
+EA Emotions Anonymous  
+EAB Elective Abortion  
+EBL Estimated Blood Loss  
+EBM  Expressed Breas t Milk  
+ECCE  Extracapsular cataract extraction  
+ECF Extended Care Facility  
+ECMO  Extracoporeal Membrane Oxygenation  
+ECT Electro Convulsive Therapy  
+ED Emergency Department  
+EDB Extensor digitorum brevis  
+EDC  Expected date of confinement  
+EDD  Estimated dat e of delivery  
+EDO  Emergency Detention Order  
+EEG  Electroencephalogram  
+EF Ejection fraction  
+EFM  Electronic fetal monitoring  
+EFW  Estimated Fetal Weight  
+EGA  Estimated Gestational Age  
+EGD  Esophogastroduoenoscopy  
+EHL Extensor Hallucis Longus  
+EKG  Electro cardiogram  
+elix Elixir  
+ELOS  Estimated length of stay  
+EMG  Electromyogram  
+EMS  Emergency Medical System  
+EN Enteral nutrition  
+ENG  Electronystagmogram  
+epith  Epithelium  
+EPL Extensor Pollicis Lungus  
+EPS Extrapyramidal symptoms  
+ER External Rotation  
+ERCP  Endoscopic retrograde 
+cholangiopancreatography  
+ESRD  End Stage Renal Disease  
+est Estimate  
+estab  Establish  
+ESWL  Extra -corporeal shock wave 
+lithotripsy  
+ET Endotracheal  
+etc And so on  
+etiol Etiology  
+ETOH  Alcohol  
+ETR Escape to Reality  
+ETS Elevated Toi let Seat  
+ETT Endotracheal Tube  
+ETX Evening Treatment  
+Ev Eversion  
+eval Evaluation  
+ex Exercise  
+exam  Examination  
+excis  Excision  
+expir  Expiratory  
+ext External  
+oF Degree  Farenheit  
+F Female  
+F.U.O.  Fever of undetermined origin  
+F/C Foley Catheter  
+F/S Frozen section  
+F/U Follow Up  
+FA Femoral Artery  
+FAS Functional Assessment Score  
+FB Forward bending  
+FBS Fasting blood sugar  
+FCE Functional Capacity Evaluation  
+fdg Feeding  
+FDP Flexor digitorum profundus  
+FDS Flexor digitorum superficialis  
+fem Femora l 
+FES Functional electrical stimulation  
+FF Fat Free  
+FFFB  Foot flat for balance  
+FFP Fresh frozen plasma  
+FFWB  Flat Foot Weight Bearing  
+FH Family History  
+FHR Fetal heart rate  
+Fi02 Fractionated inspiratory oxygen  
+fib Fibrillation  
+FIM Functional Indep endence Measure  
+FL Full liquid diet  
+FLACC  Face Legs Activity Cry Consolability  
+fld Fluid  
+flex Flexion  
+flr Floor  
+Flu Influenza  
+FM Fetal movement  
+FMLA  Family Medical Leave  
+FOB Foot of bed  
+font Fontanel  
+for. body  Foreign Body  
+FP Family Practice  
+FPB Flexor pollicis brevis  
+FPL Flexor pollicis longus  
+Fr French  
+freq Frequent  
+FROM  Full range of motion  
+FS Full strength  
+FSE Fetal Scalp electrode  
+ft Foot/feet  
+ftp Finger tip  
+FTSB  Full thickness skin burn  
+FTSG  Full thickness skin graft  
+FTSL  Full thickness skin loss  
+FTT Failure to thrive  
+FU Follow up  
+FUES  Functional Upper Extremity Scale  
+FUES 1  Nonfunctional  
+FUES 2  Passive stabilizer  
+FUES 3  Shoulder < 90%, with no hand manipulation  
+FUES 4  Shoulder < 90% with gross hand manipulation  
+FUES 5  Shoulder> 90%, with gross hand 
+manipulation  
+FUES 6  Shoulder < 90%, with fine hand 
+manipulation  
+FUES 7  Shoulder> 90%, with fine hand 
+manipulation  
+func Function  
+FunclEx  Functional Exercise  
+FVC Forced Vital Capacity  
+FWB  Full Weight Bearing  
+fwd Forward  
+Fx Fracture  
+g Gallop  
+G-tube Gastrostomy tube  
+GA General Anesthesia  
+GAF Global Assessment of Functioning  
+gav Gavage  
+GB Gallbladder  
+GBBS  Group B Beta Strep  
+GCS  Glasco Coma Scale  
+GE Graphic expression  
+GERD  Gastroesophageal Reflux Disease  
+gest Gesta tion/Gestational  
+Gf Girlfriend  
+GFR  Glomerular filtration rate  
+GI Gastrointestinal  
+GIFT  Gamete -intrafallopian transfer  
+gm Gram  
+GMHC  Gallahue Mental Health Center  
+GMHS  Gallahue Mental Health Services  
+GPAB  Gravida Para Abortion  
+gr Grain  
+gs Gluteal s etting  
+GSW  Gun Shot Wound  
+gtt(s)  Drop(s)  
+GU Genitourinary  
+Gyn Gynecology  
+H&H  Hemoglobin & hematocrit  
+H&P History and physical  
+h(r) Hour  
+HI Homicidal Ideation  
+ 
+ 
+HA Headache  
+HAL Hyperalimentation  
+HAS Hook Addendum Scale  
+HBO  Hyperbaric oxygen  
+HBP High Blood Pressure  
+Hct Hematocrit  
+HCVD  Hypertensive Cardiovascular 
+Disease  
+HD Hemodialysis  
+HDR  High Dose Radiation  
+HEENT  Head, eyes, ears, nose, and throat  
+HEP Home exercise program  
+HF Heart Failure  
+HFOV  High Frequency Oscillator Ventilator  
+HFV High Frequency Ventilation  
+Hgb Hemoglobin  
+HHC  Healthy Heart Clinic  
+HHNK  Hyperglycemic, hyperosmolar, non 
+Ketotic coma  
+HIV Human Immunodeficiency  
+HL Heparin lock  
+HMD  Hyaline membrane disease  
+HNP  Herniated nucleus pulposus  
+HOB  Head of bed  
+HOH  Hard of hearing  
+HOPD  Hospital Outpatient Department  
+HP Hotpack  
+HR Heart rate  
+HRC  Hook Rehab Center  
+HS Hour of sleep/bedtime  
+HSV Herpes simplex virus  
+ht Height  
+HT Hubbard Tank  
+HTN Hypertension  
+hum Humidified  
+HUS  Head Ultrasound  
+HVGS  High Volt Galvanic S timulation  
+HW Heparin well  
+Hx History  
+hyst Hysterectomy  
+I Independent  
+ 
+ 
+IA Intra - arterial  
+IABP  Intra-aortic balloon pump  
+IAH Intra-abdominal hypertension  
+Ib Pound  
+IBD Inflammatory bowel disease  
+IBS Irritable bowel syndrome  
+IBW Ideal body weight  
+ICC Interdisciplinary Case Conference  
+ICH Intracranial hemorrhage  
+ICP Intracranial Pressure  
+ICS Intercostal space  
+I&D Incision & drainage  
+I0 Infectious disease  
+IDDM  Insulin dependent diabetes mellitus  
+IDO Immediate Detention Order  
+IDDT  Integrated Dual Diagnosis Treatment  
+ie That is  
+IEM Inborn errors of metabolism/Met 
+Screen  
+I/E ratio  Inspiratory to expiratory ratio  
+IF Intrafat  
+Ig Large  
+IJ Internal jugular  
+IlL Intermittent Infusion Lock  
+IM Intramuscular  
+IMA Internal mammary artery  
+Imp Impression  
+IMR Image intensifier  
+IMV Intermittent Mandatory Ventillation  
+in Inches  
+Inc Incubator  
+incont  Incontinent  
+INCR  Increase  
+ind Induction  
+inf Inferior  
+info Information  
+INH Isoniazid  
+inj Injection  
+IOAP  Intensive Outpatient Addictions 
+Program  
+IOP Intensive Outpatient Program  
+ 
+ 
+Inpt Inpatient  
+insp Inspiratory/Inspiration  
+inspec  Inspection  
+int Interior  
+Int PPD  Intermediate purified protein 
+derivative  
+I&0 Intake and Output  
+IO Intraosseous  
+IOL Intraocular lens  
+ionto  IontophoresIs  
+IP Interph alangeal  
+IPPB  Intermittent positive pressure 
+breathing  
+IR Internal rotation  
+Irreg Irregular  
+Irrig Irrigation  
+IS Incentive spirometry  
+ITB Iliotibial band  
+IUD Intrauterine device  
+IUFD  Intrauterine fetal demise  
+IUGR  Intrauterine growth retardation  
+IUM Intrauterine monitoring  
+IUP Intrauterine pregnancy  
+IUPC  Intrauterine pressure catheter  
+IV Intravenous  
+IVC Inferior vena cava  
+IVCD  Intraventricular Conduction Delay  
+IVF In vitro fertilization  
+IVH Intraventricular hemorrhage  
+IVP Intravenous pyelog ram 
+IVPB  Intravenous piggy back  
+IVSS  Intravenous soluset  
+J tube  Jejunostomy (feeding) tube  
+JP Jackson - Pratt  
+jt Joint  
+jug Jugular  
+JVD Jugular vein distension  
+KAFO  Knee ankle foot orthosis  
+Kcal Kilo calories  
+kg Kilogram  
+KJ Knee Jerk  
+ 
+ 
+KO Keep ope n 
+KPH Key point handouts  
+KS Kaposi's Sarcoma  
+KVO  Keep vein open  
+L Liter 
+L&D Labor and delivery  
+L&W  Living and Well  
+LOM  Left otitis media  
+L/3 Lower one -third 
+L_ Lumbar (with vertebral level)  
+LA Left atrium/atrial  
+lAB Intra-aortic Balloon  
+lab Laboratory  
+lac Laceration  
+LAD Left anterior descending  
+LAO Left anterior oblique  
+lap Laparotomy  
+lap chole  Laparoscopic cholecystotomy  
+LAQ Long arc quad  
+lat Lateral  
+LBBB  Left bundle branch block  
+LBP Low back pain  
+LBW  Low Birth Weight  
+LCA Left corona ry artery  
+LCL Lateral collateral ligament  
+LCS Low continuous suction  
+LCX Left circumflex  
+LDR Labor Delivery Recovery Room  
+LDRP  Labor, Delivery, Recovery, & Post 
+Partum  
+LE Lower extremity  
+LGA Large for gestational age  
+LGF Low grade fever  
+LHF Left h eart failure  
+liq Liquid  
+LIS Low intermittent suction  
+LKS Liver, kidneys, spleen  
+LLE Left lower extremity  
+LLL Left lower lobe - lung 
+LLQ Left lower quadrant  
+LLSB  Left lower sternal border  
+ 
+ 
+LLT Left lateral thigh  
+LMD  Local Medical Doctor  
+LMP Last me nstrual period  
+LND lymph node dissection  
+Lo Nutr  Low nutrient  
+LOA Left occiput anterior  
+LOB Loss of balance  
+LOC Level/loss of consciousness  
+LOP Left occiput posterior  
+LOS Length of stay  
+LP Lumbar puncture  
+LPA Left pulmonary artery  
+LPO Left poster ior oblique  
+LPPC  Leukocyte poor packed cells  
+LR Lactated ringers  
+LRM  Lateral rectus muscle  
+LS Lumbo sacral (vertebra)  
+Lt Left 
+LTC Laparoscopic tubal  
+LTG Long term goal  
+LTL Laparoscopy tubal cauterization  
+LTM Long term memory  
+LTV Long term variabi lity 
+LUE Left upper extremity  
+LUL Left Upper Lobe (lung)  
+LUOQ  Left upper outer quadrant  
+LUQ Left upper quadrant  
+LV Left ventricular  
+LVH Left ventricular hypertrophy  
+Lytes  Electrolytes  
+M Male  
+M1 Mitral first  
+MA tube  Miller -Abbot tube  
+MA-1 Manual assisted respirator  
+MAAS  Motor Activity Assessment Scale  
+MAE  Moves all extremities  
+Mall Malleolus  
+Mammo  Mammogram  
+MAO  Monoamine oxidase  
+MAP  Mean arterial pressure  
+MAR  Medication administration record  
+ 
+ 
+MAS  Meconium Aspiration Syndrome  
+MAW  Metabolic active weight  
+max Maximal assistance  
+MBS  Modified Barium Swallow  
+MCC  Maternity Care Center  
+mcg Microgram  
+MCJ Metacarpal joint  
+MCL  Medial collateral ligament  
+MCPJ  Metacarpophalangeal joint  
+MD Muscular Dystrophy  
+MDI Metered dose inhaler  
+MDD  Major D epressive Disorder  
+MDN  Multi -disciplinary Note  
+MDTP  Multidisciplinary Treatment Plan  
+meas  Measure  
+mech  Mechanics  
+med Medicine/Medication  
+memb  Membranes  
+mEq Millequivalent  
+mets  Metastasis(es)/metastatic  
+Met Screen  Metabolic Screen  
+MFR  Myofascial r elease  
+mg Milligram  
+mgmt  Management  
+Mgr Manager  
+MHC  Mental Health Clinic/Clinician  
+MI Myocardial infarct(ion)  
+min Minute  
+ML Midline  
+ml Milliliter  
+MLC  Midline Catheter  
+mM Milli mole  
+mm Millimeter  
+MMPI  Minnesota multiphasic personality 
+inventory  
+MMR  Measles, mumps, & rubella vaccine  
+MMT  Manual muscle test  
+MN Midnight  
+MNT  Medical Nutrition Therapy  
+mo(s)  Month(s)  
+mob Mobilization  
+ 
+ 
+mod Moderate  
+MOF  Matter of Fact  
+MOM  Milk of Magnesia  
+MOW  Meals - On - Wheels  
+MPA  Main pulmonary artery  
+MR Mitral regurgitation  
+mr may repeat  
+MRA  Magnetic Resonance Angiography  
+MRDD  Mental Retardation Developmentally 
+Disabled  
+MRI Magnetic resonance imaging  
+MRM  Medial rectus muscle  
+MRMT  Minnesota Rate of Manipulation  
+MRSA  Methicillin Resistant Staph Aureus  
+MS Multiple Sclerosis  
+M/S Medical/surgical  
+MSE  Mental Status Exam  
+MSF  Meconium stained fluid  
+MSLT  Multiple Sleep Latency Test  
+MSOF  Multiple system organ failure  
+MT Metatarsal  
+MTP  Metatarsophalangeal  
+MTPJ  Metatarsophalangeal joint  
+MUGA  Multi -Gated Acquisition Scann  
+mur Murmur  
+MVA  Motor vehicle accident  
+MVC  Motor vehicle crash  
+mvmt  Movement  
+MVPT  Motor free visual perception test  
+MVR  Mitral valve replacement  
+MWT  Maintenance of Wakefulness Test  
+NOS  Not otherwise specified  
+N/A Not applicable  
+N/V Nausea -vomiting  
+N/V/D  Nausea/Vomiting/Diarrhea  
+NAD  No apparent distress  
+NAS No Added Salt  
+NBN  Newborn nursery  
+NBQC  Narrow base quad cane  
+NBS Newborn Screen  
+NC Nasal Cannula  
+ 
+ 
+ND No Demands  
+NDT Neurodevelopmental treatment  
+neb Nebulizer  
+nec Nece ssary  
+NED  No evidence of disease  
+neg Negative  
+neuro  Neurology/neurological  
+NG Naso -gastric  
+NICU  Newborn Intensive Care Unit  
+NIDDM  Non-insulin dependent diabetes 
+mellitus  
+NIF Negative inspiratory force  
+NIHSSm  National Institute for Health Stroke 
+Scale modified  
+nil None  
+NKA No known allergies  
+NKDA  No known drug allergies  
+nm Nanometer  
+NMB  Neuromuscular blockade  
+nn. Nerve  
+NNP  Neonatal Nurse Practitioner  
+NOB  No other brand  
+noc Night  
+norm  Normal  
+NP Nasopharyngeal  
+NPC  Non productive cough  
+NPH  Isophane Insulin Suspension  
+NPO  Nil per os - nothing by mouth  
+NPP Nursing policy and procedure  
+NRB  Non rebreather  
+NRP  Neonatal Resuscitation Program  
+NRT Neonatal Resuscitation  Team  
+NS Normal Saline  
+NSAID  Non steroidal anti -inflammatory drug  
+nsg Nursing  
+NSR  Normal sinus rhythm  
+NST Non-stress test  
+ 
+ 
+NT Not tested  
+NTG  Nitroglycerin  
+NVC's  Neurovascular checks  
+NWB  Non-weight bearing  
+O Objective  
+O2 Oxygen  
+OA Osteoarthritis  
+OATL  Open achilles tendon lengthening  
+OB Obstetrics  
+OBRR  Obstetrical Rec overy Room  
+OBS  Organic Brain Syndrome  
+obsv.  Observation  
+OC Open Crib  
+occ Occasional  
+occl Occlusive  
+OCD  Obsessive Compulsive Disorder  
+OCT  Oxytocin challenge test  
+OD Overdose  
+OFC  Occipto -frontal circumference  
+OG Orogastric  
+OH Open heart  
+OHA  Oral hypoglycemic agent  
+oint Ointment  
+OJ Orange juice  
+OK Okay  
+Oligo  Oligohydramnios  
+OM Oral motor  
+onc Oncology  
+OOB  Out of bed  
+OP Outpatient  
+OPD  Outpatient department  
+ophth  Ophthalmic  
+OPSG  Overnight Polysomnogram  
+OPSM  Outpatient sports medicine  
+OR Operating room  
+ORIF  Open reduction, internal fixation  
+Ortho  Orthopaedic  
+OSA  Obstructive Sleep Apnea  
+OT Occupational therapy  
+OTA Open to air  
+OTC  Over the counter  
+ 
+ 
+ox Oximetry  
+oz Ounce  
+P Pulse  
+P02 Partial pressure 02  
+P2 Pulmonic second heart sounds  
+P/A Posterior/Anterior  
+PA Pulmonary artery  
+PAC Premature atrial contraction  
+PACU  Post anesthesia care unit  
+PAT Paroxysmal atrial Tachycardia  
+PB Piggyback  
+PC02  Partial pressure CO2  
+PCA Patient controlled analgesia  
+pc After meals  
+PC Packed cells  
+PCC Pediatric Care Center  
+PCL Posterior cruciate ligament  
+PCN  Penicillin  
+PCP Patient Care Pathway  
+PCU  Progressive care unit  
+PCWP  Pulmonary capillary wedge pressure  
+PD Peritoneal dialysis  
+PDA Patent ductus arteriosis  
+PDD  Pervasive Developmental Disor der 
+PE Pulmonary Embolus/Emboli  
+PEARL  Pupils equal and reactive to light  
+Peds  Pediatrics  
+PEEP  Positive End Expiratory Pressure  
+PEG  Percutaneous Endoscopic 
+Gastrostomy  
+per Through/by  
+PERL  Pupils equal, react to light  
+PERLA  Pupils equal, react to lig ht and 
+accommodation  
+PERRLA  Pupils equal round reactive to light 
+and accommodation  
+PFC Persistent fetal circulation  
+PFT Pulmonary Function Test  
+PGAb  Para Gravida Abortion  
+PH Past history  
+phono  Phonophoresis  
+ 
+ 
+PHP Partial Hosp Program  
+PI Present illne ss 
+ 
+PICC  Peripherally Inserted Central 
+Catheter  
+PICU  Psychiatric Intensive Care Unit  
+PID Pelvic inflammatory disease  
+PIH Pregnancy induced hypertension  
+Pit Pitocin  
+PIP Proximal interphalangeal  
+PJC Premature junctional contraction  
+PLRI  Posterior lat eral rotatory instability  
+PlV Peripheral Intravenous  
+PLM Periodic Limb Movement  
+PM Afternoon/evening  
+PMH  Past medical history  
+PMI Point of maximal impuse  
+PMS  Premenstrual syndrome  
+PNA Patient not available  
+PNC  Premature nodal contraction  
+PNP Patie nt Not Present  
+po Per os  
+POC  Point of Care  
+POCU  Preoperative Care Unit  
+POD  Post-operative day(s)  
+poplit  Popliteal  
+pos Positive  
+Post Posterior  
+post-op After surgery  
+post. tib  Posterior tibial  
+PP Post partum  
+P&P Policy and Procedure  
+pp Post prand ial 
+PPD Purified Protein Derivative  
+PPF Plasma protein fraction  
+PPHN  Persistent Pulmonary Hypertension  
+PPL Post partum ligation  
+PPM  Permanent Pacemaker  
+PPN Peripheral parenteral nutrition  
+PPP Palpable pedal pulses  
+PPV Positive Pressure Ventilation  
+PR Per rectum  
+pre-op Before surgery  
+prec Precautions  
+preg Pregnant  
+premie  Premature infant  
+prep Prepare for  
+prev Previous  
+prn As required  
+PROM  Passive range of motion  
+prox.  Proximal  
+PS Pressure sore  
+Psych  Psychiatry  
+pt. Patient  
+PT Physical th erapy  
+PTA Prior to admission  
+PTCA  Percutaneous Transluminal 
+Coronary Angioplasty  
+PTL Preterm labor  
+PTP Post tibial pulse  
+PTSB  Partial thickness skin burn  
+PTSD`  Post Traumatic Stress Disorder  
+PTSL  Partial thickness skin loss  
+PUD  Peptic ulcer disease  
+Pulm  Pulmonary  
+PV Pulmonary vein  
+PVC Premature ventricular contraction  
+PVR Pulmonary vascular resistence  
+PWB  Partial weight bearing  
+PZI Protamine zinc insulin  
+q Every/each  
+qh Every hour  
+qid Four times a day  
+qs A sufficient quantity  
+QIP Quality improvement process  
+QLC Quadrilumen catheter  
+qt Quart  
+quant.  Quantative  
+R Respiration  
+ROM  Right otitis media  
+RT Recreational therapy  
+R/A Room air  
+r/o Rule out  
+rad Unit of absorbed radiation  
+RAT Right anterior thigh  
+RAV Readback and verified  
+RBBB Right bundle branch block  
+RC/S  Repeat Cesarean Section  
+RCA  Right coronary artery  
+RD Retinal detachment  
+RDA  Recommended daily allowance  
+RDI Reference daily intake  
+RDS  Respiratory distress syndrome 
+RE Right Eye 
+re Regarding  
+Rec Recommendation  
+rec'd  Received  
+reg Regular  
+rehab  Rehabilitation  
+REM  Rapid Eye Movement  
+reps Repetitions  
+Resp  Respirations  
+Resp T  Respiratory Therapy  
+ret'd Returned  
+retr Retraction  
+Rh.A  Rheumatoid arthritis  
+RHC  Respirations have ceased  
+RHD  Rheumatic heart disease  
+RHF Right hear t failure  
+RL Rotation left  
+RLE Right lower extremities  
+RLL Right lower lobe (lung)  
+RLQ Right lower quadrant  
+RLS Restless Leg Syndrome  
+RLT Right lateral thigh  
+RME  Right mediolateral episiotomy  
+RML  Right middle lobe (lung)  
+RNWNP  Restricted No Work N o Play  
+RO Reality orientation  
+ROA  Right Occiput anterior  
+ROM  Range of motion  
+ROP  Right occiput posterior  
+RPA Right pulmonary artery  
+RR Recovery room  
+RROM  Resisted range of motion  
+RSV Respiratory Synctial Virus  
+Rt Right  
+RTC Return to clinic  
+RUE  Right upper extremity  
+RUL Right upper lobe (lung)  
+RUOQ  Right Upper Outer Quadrant  
+rupt Ruptured  
+RUQ  Right upper quadrant  
+RV Right ventricle  
+RVH  Right ventricle hypertrophy  
+RVSWI  Right ventricular stroke work index  
+RW Radiant Warmer  
+Rx Prescription  
+S Single  
+S&S Signs & symptoms  
+SL Sublingual  
+SOB  Short(ness) of breath  
+SS Soap solution  
+ST Speech therapy  
+s/p Status post  
+S_ Sacral (with vertebral level)  
+SA Sinoatrial node  
+Sa02  Arterial Oxyhemoglobin Saturation  
+SAB Spontaneous abortion  
+SAH Subarachnoid hemorrhage  
+SAQ  Short arc quads  
+sat Saturated  
+satis Satisfactory  
+SATL  Subcutaneous Achilles tendon 
+lengthening  
+SAO  Sexually Acting Out  
+SB Side bending  
+SBE Subacute bacterial endocarditis  
+SBGM  Self blood glucose monitoring  
+SBO  Small bowel obstruction  
+SBP Systolic blood pressure  
+sc Scant  
+scap  Scapula  
+SCC  Squamous cell carcinoma  
+SCD  Sequential compression devise  
+sch vis/wk  Scheduled visits per week  
+SCI Spinal cord injury  
+SCM  Sternocleidomastoid  
+SCN  Special care nursery  
+SCUF  Slow con tinuous ultrafiltration  
+SDS Self directed search of academic, 
+vocational options  
+SE Side Effects  
+sec Seconds  
+SED Seriously Emotionally Disabled  
+seiz Seizure  
+SEM  Systolic ejection murmur  
+Sep Separated  
+SF Sugar free  
+SGA  Small for gestational age  
+SGW Shot Gun W ound  
+SH Social history  
+shldr  Shoulder  
+si Sacroiliac  
+Sib Sibling  
+SI Suicidal ideation  
+SIADH  Syndrome of inappropriate anti -
+diuretic hormone  
+SIDS  Sudden Infant Death Syndrome  
+sim Simulation  
+SIMV  Spontaneous Intermittent Mechanical 
+Venti lation  
+SIRS  Systemic Inflammatory Response 
+Syndrome  
+Sis Sister  
+SL Sublingual  
+Sl Slight  
+SLE Systemic Lupus Erythematosus  
+SLR Straight Leg Raising  
+Sm Small  
+SMHC  Senior Mental Health Clinic  
+SMI Sustained Maximum Inspiration  
+SMOF  Supportive Matter of  Fact 
+SMR  Submucous Resection  
+SO Significant Other  
+SOB  Short(ness) of Breath  
+SOL Solution  
+SOSOB  Setting on side of bed  
+SpGr  Specific Gravity  
+Spec  Specimen  
+SPMI  Severely Persistent Mentally Ill  
+SpO 2 Pulse Oximeter Oxyhemoglobin 
+Saturation  
+Spone  Spontaneous  
+SPT Standing Pivot Transfer  
+SR System Review  
+SRM  Superior Rectus Muscle  
+SROM  Spontaneous Rupture of Membranes  
+SSCP  Substernal Chest Pain  
+SSDI Social Security Disability  
+SSE Soap Suds Enema  
+SSKI  Saturated Solution Potassium  
+St Stain  
+sta Station  
+STAT  At once  
+STD Sexually transmitted disease  
+STEMI  ST-elevation myocardial infarction  
+STG Short term goal  
+stim Stimulation  
+STM  Short term memory  
+STSG.  Split thickness skin graft  
+STV Short term variability  
+Subcl  Subclavian  
+subQ  Subcutane ous 
+suct Suction(ing)  
+sup Superior  
+supin  Supination  
+Supp  Suppository  
+Surg  Surgery  
+susp  Suspension  
+SVC Superior vena cava  
+SVD Spontaneous vaginal delivery  
+SVE Sterile Vaginal Exam  
+SVO2  Venous oxygen saturation  
+SVR Systemic vascular resistance  
+SVT Supra -ventricular tachycardia  
+Sx Symptom  
+Sympat  Sympathetic  
+syr Syrup  
+syst Systolic  
+s/w somewhat  
+T  Temperature  
+T/A Talked About  
+T&A Tonsillectomy and adenoidectomy  
+TC Thought Content  
+T&C Type and crossmatch  
+TAT Tetanus antitoxin  
+TcB Transcut aneous bilirubin  
+TD Thermodilution  
+tid Three times a day  
+TOF Tetralogy of Fallot  
+TTB Tetanus Toxoid booster  
+T_ Thoracic (with vertebral level)  
+TA Transactional analysis  
+tab Tablet  
+tachy  Tachycardia  
+TAH Total abdominal hysterectomy  
+TB Tuberculosis  
+TBI Traumatic brain injury  
+TCDB  Turn, cough, deep breathe  
+TCM  Transcutaneous Monitor  
+TcB Transcutaneous bilirubin  
+TcPO2  Transcutaneous oxygen  
+TCU Transitional Care Unit  
+TDD Tentative discharge date  
+TED Ted Hose  
+TENS  Transcutaneous electrical n erve 
+stimulation  
+TF Tube feeding  
+TFL Tensor fascia latae  
+Th Thumb  
+THA Total hip arthroplasty  
+Ther Act  Therapeutic Activities  
+Ther Ex  Therapeutic exercise  
+THR Total hip replacment  
+TIA Transient ischemic attack  
+TKA Total knee arthroplasty  
+TKE Termi nal knee extension  
+TKR Total knee replacement  
+TL Tubal ligation  
+TLC Triple lumen catheter  
+TM Treadmill test  
+TMJ Temporomandibular joint  
+TMP  Trimethoprim  
+TO Telephone order  
+toco Tocodynamometer  
+tol Tolerated  
+TOM  Transcutaneous oxygen monitor  
+Toma x Maximum temperature  
+TP Thought Process  
+TPA Tissue Plasminogin Activator  
+TPM  Temporary Pacemaker  
+TPN Total Parenteral nutrition  
+TPR Temperature, pulse, respirations  
+Tpt Trigger point  
+TPV Trivalent oral polio vaccine  
+tr Trace  
+trach  Tracheotomy  
+trans Transferred  
+trap Trapezius  
+TSA Total shoulder arthroplasty  
+TSF Toilet safety frame  
+TSS Toxic shock syndrome  
+TTB Tetanus Toxoid Booster  
+TTN Transient Tachypna of the Newborn  
+TTWB  Toe touch weight bearing  
+TUR Transurethral resection  
+TURBN  Transurethral resection bladder neck  
+TURBT  Transurethral resection bladder 
+tumor  
+TURP  Transurethral resection prostate  
+TV Television  
+TVH Total vaginal hysterectomy  
+TVol Tidal Volume  
+Tx Treatment  
+tymp  Tympanic  
+U.O. Urinary output  
+U/3 Upper one -third 
+U/A Urinalysis  
+UAC  Umbilical Artery Catheter  
+UAF Universal Assessment Form  
+UAL Umbilical arterial line  
+UBW  Usual body weight  
+UC Ultracal  
+UD Ulnar deviation  
+UDS  Urine drug screen  
+UE Upper extremity  
+UF Ultrafiltrate/ultrafiltration  
+UGI Upper Gastro  Intestinal  
+umb Umbilical  
+uncomf  Uncomfortable  
+ung. Ointment  
+UNK  Unknown  
+URI Upper respiratory infection  
+UROL  Urology  
+US Ultrasound  
+USP United states pharmacopeia  
+UTI Urinary tract infection  
+UTS Utility tub seat  
+UVC  Umbilical Venous Catheter  
+UVL Umbilical venous line  
+V Five 
+V-P Visual perceptual  
+VH Visual Hallucinations  
+V.I.P.  Very important person  
+VMO  Vastus Medialis Obliquus  
+VO Verbal order  
+V/Q Ventilation, perfusion quotient  
+VA Visual acuity  
+VAD Vascular  Ventricular  assist device  
+vag Vaginal  
+VAS Visual analog scale  
+VBAC  Vaginal birth after cesarean  
+VComp  Visual comprehension  
+VCT Volume Computed Tomography  
+VD Venereal disease  
+vdg qs  Voiding quantities sufficient  
+VE Verbal expression  
+vent Ventilator  
+VF Ventricular fibrillation  
+vit Vitamin  
+VIU Visual internal urethrotomy  
+VM Venti mask  
+VNS Visiting nurse service  
+Voc Rehab  Vocational Rehabilitation  
+vol Volume  
+VRE Vancomycin resistant enterococcus  
+VS Vital signs  
+VSD Ventricular septal defect  
+VSE Videofluroscopic swallow e valuation  
+VSS Vital signs stable  
+VT Ventricular tachycardia  
+VTM  Vapotherm  
+Vtx Vertex  
+w White  
+W/A While Awake  
+W.D.  Well developed  
+W.N.  Well nourished  
+W.P.W.  Wolfe -Parkinson -White  
+W/C Wheel chair  
+WB Whole blood  
+WBAT  Weight bearing as tolerated  
+WBQC  Wide based quad cane  
+WC Work conditioning  
+Wd Wound  
+WFL  Within functional limits  
+WIC Women's, infants and children  
+WIT Walk in tank  
+wk Week  
+wkly Weekly  
+wm Warm  
+WNL  Within normal limits  
+WP Whirlpool  
+WPC  Washed packed cells  
+wt Weight  
+X Times  
+X-fers Transfers  
+X-out Time out  
+XR X-ray 
+y/o Years old  
+yd(s)  Yard(s)  
+Yr (s)  Years  
+Z Z-track  
+z&c Zero and calibrate  
+ZIFT  Zygote intra -fallopian transfer  
