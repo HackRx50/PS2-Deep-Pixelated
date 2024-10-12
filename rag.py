@@ -77,8 +77,7 @@ question = "Patient diagnosed with Right eye cataract"
 
 # Invoke the chain with both query and context
 response = chain.invoke({
-    "query": question,
-    "context": context
+    "query": question
 })
 
 # Print the refined response
