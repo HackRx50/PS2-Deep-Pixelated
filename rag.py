@@ -3,13 +3,11 @@ from langchain_community.graphs.networkx_graph import NetworkxEntityGraph
 from langchain_together import ChatTogether
 from langchain.prompts import PromptTemplate
 
-# Initialize your LLM model
 chat_model = ChatTogether(
     together_api_key="019d5b390bf9b379deefbc22ed4cb09750a79f34f667e5b491828bd12959db2e",
     model="meta-llama/Llama-3-70b-chat-hf",
 )
 
-# Define the GML file path and load the graph
 gml_file_path = "icd10/icd10_graph.gml"
 graph = NetworkxEntityGraph.from_gml(gml_file_path)
 
@@ -60,7 +58,6 @@ entity_prompt = PromptTemplate(
     template=entity_prompt_template
 )
 
-# Initialize the GraphQAChain with the LLM, graph, and refined prompt templates
 chain = GraphQAChain.from_llm(
     llm=chat_model,
     graph=graph,
@@ -68,7 +65,6 @@ chain = GraphQAChain.from_llm(
     entity_prompt=entity_prompt,
     verbose=True
 )
-# Convert graph triples to string format for context
 triples = graph.get_triples()
 context = ", ".join([f"({t[0]}, {t[1]}, {t[2]})" for t in triples])
 # Define the provisional diagnosis as the question
