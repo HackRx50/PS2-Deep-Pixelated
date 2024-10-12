@@ -130,16 +130,16 @@ async def process_folder(folder_path: str = Form(...)):
                 continue  # Skip if no "Provisional Diagnosis" section found   
             
                     # Step 2: Clean the cropped image
-            cleaned_image_path = clean_image(cropped_image)
+            # cleaned_image_path = clean_image(cropped_image)
 
         # (Optional) Set DPI if needed before sending to Qwen2 (handled in the clean_image function if applicable)
         # You can also save the cleaned image with specified DPI settings if necessary.
-            cleaned_image = Image.open(cleaned_image_path)
-            cleaned_image.save(cleaned_image_path, dpi=(300, 300))      
+            # cleaned_image = Image.open(cleaned_image_path)
+            # cleaned_image.save(cleaned_image_path, dpi=(300, 300))      
 
             # Step 2: Extract the text from the cropped image using Qwen2
-            # extracted_text = extract_text_from_image(cropped_image)
-            extracted_text = extract_text_from_image(cleaned_image_path)
+            extracted_text = extract_text_from_image(cropped_image)
+            # extracted_text = extract_text_from_image(cleaned_image_path)
 
 
             # Create a new entry as a DataFrame
