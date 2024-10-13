@@ -9,6 +9,7 @@ import glob
 from PIL import Image, ImageFilter, ImageEnhance
 from datetime import datetime
 from abbreviation import replace_abbreviations, load_abbreviations
+from masking import detect_and_blur_details
 
 
 app = FastAPI()
@@ -60,10 +61,15 @@ async def extract_text(file: UploadFile = File(...)):
         file_path = os.path.join(UPLOAD_DIR, file.filename)
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
+            
+        blurred_image_path = detect_and_blur_details(file_path)
+        
+
 
         # Step 1: Crop the "Provisional Diagnosis" section
         cropped_path = os.path.join(CROPPED_DIR, f"cropped_{file.filename}")
-        cropped_image = extract_provisional_diagnosis(file_path, cropped_path)
+        # cropped_image = extract_provisional_diagnosis(file_path, cropped_path)
+        cropped_image = extract_provisional_diagnosis(blurred_image_path, cropped_path)
 
         if cropped_image is None:
             raise HTTPException(status_code=404, detail="No 'Provisional Diagnosis' section found.")
@@ -130,9 +136,15 @@ async def process_folder(folder_path: str = Form(...)):
                 continue  # Skip if no "Provisional Diagnosis" section found   
             
             extracted_text = extract_text_from_image(cropped_image)
+            abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)
+            refined_text = replace_abbreviations(extracted_text[0], abbreviations_dict)
+
+
+
             # extracted_text = extract_text_from_image(cleaned_image_path)
             
-            new_entry = pd.DataFrame({"Image Name": [os.path.basename(image_file)], "Provisional Diagnosis": [extracted_text[0]]})
+            # new_entry = pd.DataFrame({"Image Name": [os.path.basename(image_file)], "Provisional Diagnosis": [extracted_text[0]]})
+            new_entry = pd.DataFrame({"Image Name": [os.path.basename(image_file)], "Provisional Diagnosis": refined_text})
 
             df = pd.concat([df, new_entry], ignore_index=True)
 
