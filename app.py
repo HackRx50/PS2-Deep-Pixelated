@@ -4,11 +4,14 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form
 import cv2
 import os
+import shutil
+from io import BytesIO
 import pandas as pd
 from utils.segmentation import extract_provisional_diagnosis
 from utils.ocr import extract_text_from_image
 import glob
 from PIL import Image, ImageFilter, ImageEnhance
+from datetime import datetime
 from utils.abbreviation import replace_abbreviations, load_abbreviations
 from fastapi.responses import JSONResponse
 from utils.rag import get_icd10_code
@@ -17,11 +20,10 @@ from utils.rag import get_icd10_code
 
 app = FastAPI()
 
-# Temporary directories to save uploaded files and cropped images
 UPLOAD_DIR = "uploads/"
 CROPPED_DIR = "cropped/"
 EXCEL_FILE = "diagnosis_output.xlsx"
-ABBREVIATION_FILE_PATH = 'Datasets/medical_terms_abbreviations.txt'
+ABBREVIATION_FILE_PATH = 'Dataset/medical_terms_abbreviations.txt'
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(CROPPED_DIR, exist_ok=True)
@@ -29,32 +31,35 @@ os.makedirs(CROPPED_DIR, exist_ok=True)
 if not os.path.exists(EXCEL_FILE):
     df = pd.DataFrame(columns=["Image Name", "Provisional Diagnosis"])
     df.to_excel(EXCEL_FILE, index=False)
+    
+
 
 @app.post("/extract_diagnosis")
 async def extract_diagnosis(file: UploadFile = File(...)):
     try:
-        # Read the uploaded file
         image_bytes = await file.read()
-        # Extract provisional diagnosis section
         cropped_img = extract_provisional_diagnosis(image_bytes)
         if cropped_img is not None:
-            # Convert cropped_img (numpy array) to PIL Image
             cropped_image_pil = Image.fromarray(cv2.cvtColor(cropped_img, cv2.COLOR_BGR2RGB))
-            # Extract text from cropped image
+            # cropped_image_pil = Image.open(BytesIO(image_bytes))
+
             extracted_diagnosis = extract_text_from_image(cropped_image_pil)
-            abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)
+            if isinstance(extracted_diagnosis, list):
+                extracted_diagnosis = ' '.join(extracted_diagnosis)
+
+            abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)            
             extracted_abbreviated_diagnosis = replace_abbreviations(extracted_diagnosis, abbreviations_dict)
 
-            # Get ICD-10 code and description
             icd10_result = get_icd10_code(extracted_abbreviated_diagnosis)
+            print(get_icd10_code(extracted_abbreviated_diagnosis))
             if icd10_result is not None:
                
                 data = {
                     "Extracted Text": extracted_abbreviated_diagnosis,
+                    "orgininal": extracted_diagnosis,
                     "ICD-10 Code": icd10_result.get("icd10_code"),
                     "Description": icd10_result.get("description")
                 }
-                # Load existing Excel file or create a new one
                 if os.path.exists(EXCEL_FILE):
                     df = pd.read_excel(EXCEL_FILE)
                 else:
@@ -108,8 +113,9 @@ async def process_folder(folder_path: str = Form(...)):
 
             cropped_image_pil = Image.fromarray(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))
 
-            # Extract text from cropped image
             extracted_text = extract_text_from_image(cropped_image_pil)
+            if isinstance(extracted_diagnosis, list):
+                extracted_diagnosis = ' '.join(extracted_diagnosis)
             abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)
             extracted_abbreviated_diagnosis = replace_abbreviations(extracted_text, abbreviations_dict)
 
@@ -133,4 +139,3 @@ async def process_folder(folder_path: str = Form(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# To run the FastAPI app, use: uvicorn app:app --reload

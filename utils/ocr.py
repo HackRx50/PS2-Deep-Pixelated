@@ -6,12 +6,26 @@ import numpy as np
 from PIL import Image
 import pandas as pd
 from sklearn.preprocessing import binarize
+from io import BytesIO
 
+def read_image_from_bytes(image_bytes):
+    image = Image.open(BytesIO(image_bytes)).convert("RGB")
+    return image
 
 model = Qwen2VLForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-VL-2B-Instruct", torch_dtype="auto", device_map="auto"
 )
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-2B-Instruct")
+
+def process_vision_info(messages):
+    image_inputs = []
+    for message in messages:
+        for content in message["content"]:
+            if content["type"] == "image":
+                # content["image"] is a PIL Image
+                image_inputs.append(content["image"])
+    return image_inputs, None
+
 
 def thinning(image):
     kernel = np.ones((3, 3), np.uint8)  # Use a larger kernel
@@ -35,8 +49,8 @@ def clean_image(image, scale_factor=2.5):
 
 
 def extract_text_from_image(image_path):
-    image = Image.open(image_path)
-    cleaned_image = clean_image(np.array(image))
+    # image = Image.open(image_path)
+    cleaned_image = clean_image(np.array(image_path))
 
     messages = [
         {

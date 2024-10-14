@@ -16,13 +16,13 @@ chat_model = ChatTogether(
     model="meta-llama/Llama-3-70b-chat-hf",
 )
 
-gml_file_path = "Datasets/icd10_graph.gml"
+gml_file_path = "Dataset/icd10_graph.gml"
 graph = NetworkxEntityGraph.from_gml(gml_file_path)
 
 # Retrieve graph triples for context
 triples = graph.get_triples()
 context = ", ".join([f"({t[0]}, {t[1]}, {t[2]})" for t in triples])
-print(context)
+# print(context)
 # print(graph.get_number_of_nodes())
 
 # Improved QA prompt to restrict the model to only answer from the graph and suggest the apt ICD-10 codes
