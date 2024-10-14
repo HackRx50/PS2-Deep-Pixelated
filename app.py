@@ -1,12 +1,18 @@
+# run for fastAPI
+# uvicon app:app --reload
+
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form
-import shutil
+import cv2
 import os
 import pandas as pd
-from segmentation import extract_provisional_diagnosis
-from ocr import extract_text_from_image
-from typing import List
+from utils.segmentation import extract_provisional_diagnosis
+from utils.ocr import extract_text_from_image
 import glob
 from PIL import Image, ImageFilter, ImageEnhance
+from utils.abbreviation import replace_abbreviations, load_abbreviations
+from fastapi.responses import JSONResponse
+from utils.rag import get_icd10_code
+
 
 
 app = FastAPI()
@@ -15,131 +21,114 @@ app = FastAPI()
 UPLOAD_DIR = "uploads/"
 CROPPED_DIR = "cropped/"
 EXCEL_FILE = "diagnosis_output.xlsx"
+ABBREVIATION_FILE_PATH = 'Datasets/medical_terms_abbreviations.txt'
 
-# Ensure directories exist
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(CROPPED_DIR, exist_ok=True)
 
-# Initialize or load existing Excel file
 if not os.path.exists(EXCEL_FILE):
     df = pd.DataFrame(columns=["Image Name", "Provisional Diagnosis"])
     df.to_excel(EXCEL_FILE, index=False)
 
-def clean_image(image_path):
-    # Open the image using PIL
-    img = Image.open(image_path)
-
-    # Convert to grayscale
-    img = img.convert("L")
-
-    # Apply Gaussian Blur to remove noise
-    img = img.filter(ImageFilter.GaussianBlur(radius=1))
-
-    # Enhance the contrast
-    enhancer = ImageEnhance.Contrast(img)
-    img = enhancer.enhance(1.5)  # Increase contrast
-
-    # Save the cleaned image to a temporary location
-    cleaned_image_path = image_path.replace(".jpg", "_cleaned.jpg")  # Change extension as needed
-    img.save(cleaned_image_path)
-
-    return cleaned_image_path
-
-
-
-@app.post("/extract-text/")
-async def extract_text(file: UploadFile = File(...)):
+@app.post("/extract_diagnosis")
+async def extract_diagnosis(file: UploadFile = File(...)):
     try:
-        # Save the uploaded file
-        file_path = os.path.join(UPLOAD_DIR, file.filename)
-        with open(file_path, "wb") as buffer:
-            shutil.copyfileobj(file.file, buffer)
+        # Read the uploaded file
+        image_bytes = await file.read()
+        # Extract provisional diagnosis section
+        cropped_img = extract_provisional_diagnosis(image_bytes)
+        if cropped_img is not None:
+            # Convert cropped_img (numpy array) to PIL Image
+            cropped_image_pil = Image.fromarray(cv2.cvtColor(cropped_img, cv2.COLOR_BGR2RGB))
+            # Extract text from cropped image
+            extracted_diagnosis = extract_text_from_image(cropped_image_pil)
+            abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)
+            extracted_abbreviated_diagnosis = replace_abbreviations(extracted_diagnosis, abbreviations_dict)
 
-        # Step 1: Crop the "Provisional Diagnosis" section
-        cropped_path = os.path.join(CROPPED_DIR, f"cropped_{file.filename}")
-        cropped_image = extract_provisional_diagnosis(file_path, cropped_path)
-
-        if cropped_image is None:
-            raise HTTPException(status_code=404, detail="No 'Provisional Diagnosis' section found.")
-        
-        
-        # Step 2: Clean the cropped image
-        cleaned_image_path = clean_image(cropped_image)
-
-        # (Optional) Set DPI if needed before sending to Qwen2 (handled in the clean_image function if applicable)
-        # You can also save the cleaned image with specified DPI settings if necessary.
-        cleaned_image = Image.open(cleaned_image_path)
-        cleaned_image.save(cleaned_image_path, dpi=(300, 300))
-
-        # Step 2: Extract the text from the cropped image using Qwen2
-        # extracted_text = extract_text_from_image(cropped_image)
-        extracted_text = extract_text_from_image(cleaned_image_path)
-
-        # Load existing Excel file
-        df = pd.read_excel(EXCEL_FILE)
-
-        # Create a new entry as a DataFrame
-        new_entry = pd.DataFrame({"Image Name": [file.filename], "Provisional Diagnosis": [extracted_text[0]]})
-
-        # Concatenate the new entry with the existing DataFrame
-        df = pd.concat([df, new_entry], ignore_index=True)
-
-        # Save the updated DataFrame to the Excel file
-        df.to_excel(EXCEL_FILE, index=False)
-
-        # Return the extracted text
-        return {"extracted_text": extracted_text}
-
+            # Get ICD-10 code and description
+            icd10_result = get_icd10_code(extracted_abbreviated_diagnosis)
+            if icd10_result is not None:
+               
+                data = {
+                    "Extracted Text": extracted_abbreviated_diagnosis,
+                    "ICD-10 Code": icd10_result.get("icd10_code"),
+                    "Description": icd10_result.get("description")
+                }
+                # Load existing Excel file or create a new one
+                if os.path.exists(EXCEL_FILE):
+                    df = pd.read_excel(EXCEL_FILE)
+                else:
+                    df = pd.DataFrame(columns=["Extracted Text", "Refined Diagnosis", "ICD-10 Code", "Description"])
+                new_entry = pd.DataFrame([data])
+                df = pd.concat([df, new_entry], ignore_index=True)
+                df.to_excel(EXCEL_FILE, index=False)
+                # Return the results
+                return data
+            else:
+                return JSONResponse(content={"error": "Could not retrieve ICD-10 code"}, status_code=500)
+        else:
+            return JSONResponse(content={"error": "Could not extract provisional diagnosis section"}, status_code=400)
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        return JSONResponse(content={"error": str(e)}, status_code=500)
 
 @app.post("/process-folder/")
 async def process_folder(folder_path: str = Form(...)):
     try:
-        # Get all image files from the folder
+
+        os.makedirs(CROPPED_DIR, exist_ok=True)
+
         image_files = glob.glob(os.path.join(folder_path, "*.jpg")) + \
                       glob.glob(os.path.join(folder_path, "*.jpeg")) + \
-                      glob.glob(os.path.join(folder_path, "*.png"))  # Add more extensions as needed
+                      glob.glob(os.path.join(folder_path, "*.png"))
 
         if not image_files:
             raise HTTPException(status_code=404, detail="No images found in the folder.")
 
-        # Load existing Excel file
-        df = pd.read_excel(EXCEL_FILE)
+        processing_results = []
 
-        # Process each image
+        if os.path.exists(EXCEL_FILE):
+            df = pd.read_excel(EXCEL_FILE)
+        else:
+            df = pd.DataFrame(columns=["Image Name", "Extracted Text", "Refined Diagnosis", "ICD-10 Code", "Description"])
+
+
         for image_file in image_files:
-            # Step 1: Crop the "Provisional Diagnosis" section
-            cropped_path = os.path.join(CROPPED_DIR, f"cropped_{os.path.basename(image_file)}")
-            cropped_image = extract_provisional_diagnosis(image_file, cropped_path)
+            with open(image_file, 'rb') as f:
+                image_bytes = f.read()
+
+            # Process the image (e.g., crop diagnosis area, extract text)
+            cropped_image = extract_provisional_diagnosis(image_bytes)
 
             if cropped_image is None:
-                continue  # Skip if no "Provisional Diagnosis" section found   
-            
-                    # Step 2: Clean the cropped image
-            cleaned_image_path = clean_image(cropped_image)
+                processing_results.append({
+                    "image_name": os.path.basename(image_file),
+                    "error": "Could not extract provisional diagnosis section"
+                })
+                continue  
 
-        # (Optional) Set DPI if needed before sending to Qwen2 (handled in the clean_image function if applicable)
-        # You can also save the cleaned image with specified DPI settings if necessary.
-            cleaned_image = Image.open(cleaned_image_path)
-            cleaned_image.save(cleaned_image_path, dpi=(300, 300))      
+            cropped_image_pil = Image.fromarray(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))
 
-            # Step 2: Extract the text from the cropped image using Qwen2
-            # extracted_text = extract_text_from_image(cropped_image)
-            extracted_text = extract_text_from_image(cleaned_image_path)
+            # Extract text from cropped image
+            extracted_text = extract_text_from_image(cropped_image_pil)
+            abbreviations_dict = load_abbreviations(ABBREVIATION_FILE_PATH)
+            extracted_abbreviated_diagnosis = replace_abbreviations(extracted_text, abbreviations_dict)
 
+            icd10_result = get_icd10_code(extracted_abbreviated_diagnosis)
 
-            # Create a new entry as a DataFrame
-            new_entry = pd.DataFrame({"Image Name": [os.path.basename(image_file)], "Provisional Diagnosis": [extracted_text[0]]})
+            new_entry = {
+                "Image Name": os.path.basename(image_file),
+                "Extracted Text": extracted_abbreviated_diagnosis,
+                "ICD-10 Code": icd10_result.get("icd10_code") if icd10_result else None,
+                "Description": icd10_result.get("description") if icd10_result else None
+            }
 
-            # Concatenate the new entry with the existing DataFrame
-            df = pd.concat([df, new_entry], ignore_index=True)
+            df = pd.concat([df, pd.DataFrame([new_entry])], ignore_index=True)
 
-        # Save the updated DataFrame to the Excel file
+            processing_results.append(new_entry)
+
         df.to_excel(EXCEL_FILE, index=False)
 
-        # Return success message
-        return {"message": f"Processed {len(image_files)} images from the folder successfully."}
+        return JSONResponse(content={"processed_images": processing_results}, status_code=200)
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
