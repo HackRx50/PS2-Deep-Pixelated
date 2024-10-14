@@ -88,7 +88,6 @@ def get_icd10_code(extracted_text):
 
         result_text = response.get('result', '')
 
-        # Use regex to find the JSON object in the result_text
         match = re.search(r'\{.*\}', result_text, re.DOTALL)
         if match:
             json_str = match.group(0)
@@ -97,7 +96,7 @@ def get_icd10_code(extracted_text):
             icd10_code = icd10_data.get('icd10_code', '')
             description = icd10_data.get('description', '')
         else:
-            # If no JSON object is found, set as empty
+            
             icd10_code = ''
             description = ''
 
