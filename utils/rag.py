@@ -87,23 +87,30 @@ def get_icd10_code(extracted_text):
         print("Chain Response:", response)
 
         result_text = response.get('result', '')
+        match = re.search(r'c:\s*(\S+),\s*d:\s*(.+)', result_text)
 
-        match = re.search(r'\{.*\}', result_text, re.DOTALL)
+        # match = re.search(r'\{.*\}', result_text, re.DOTALL)
         if match:
-            json_str = match.group(0)
-            # Parse the JSON string
-            icd10_data = json.loads(json_str)
-            icd10_code = icd10_data.get('icd10_code', '')
-            description = icd10_data.get('description', '')
+            icd10_code = match.group(1)  # Extract ICD-10 code
+            description = match.group(2)  # Extract description
+
+            print(f"ICD-10 Code: {icd10_code}")
+            print(f"Description: {description}")
+
+            # json_str = match.group(0)
+            # # Parse the JSON string
+            # icd10_data = json.loads(json_str)
+            # icd10_code = icd10_data.get('icd10_code', '')
+            # description = icd10_data.get('description', '')
         else:
             
             icd10_code = ''
             description = ''
 
         return {
+           "extracted_text": extracted_text,
             "icd10_code": icd10_code,
-            "description": description,
-            "extracted_text": extracted_text
+            "description": description
         }
     except Exception as e:
         print(f"Error in get_icd10_code: {e}")
