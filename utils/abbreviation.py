@@ -38,15 +38,14 @@ def replace_abbreviations(sentence, abbreviations_dict):
     updated_words = []
     
     for word in words:
-        stripped_word = re.sub(r'[^\w\s]', '', word)  # Strip punctuation or symbols
+        stripped_word = re.sub(r'[^\w\s]', '', word) 
         
-        # Check for multi-word sentences
         if len(words) > 1:
-            # Try to find an exact match first
+            
             full_form = abbreviations_dict.get(stripped_word.upper(), None)
             
             if not full_form:
-                # Find the closest match if no exact match found
+                
                 possible_matches = difflib.get_close_matches(stripped_word.upper(), abbreviations_dict.keys(), n=1, cutoff=0.9)
                 if possible_matches:
                     full_form = abbreviations_dict.get(possible_matches[0])
@@ -57,11 +56,11 @@ def replace_abbreviations(sentence, abbreviations_dict):
             else:
                 updated_words.append(word)
         else:
-            # Handle single word input
+            
             longest_match = find_longest_match(stripped_word, abbreviations_dict)
             if longest_match:
                 full_form = abbreviations_dict.get(longest_match)
-                updated_word = full_form  # Replace the word with the full form directly
+                updated_word = full_form  
                 updated_words.append(updated_word)
             else:
                 updated_words.append(word)

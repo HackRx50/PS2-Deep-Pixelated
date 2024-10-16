@@ -1,14 +1,22 @@
+import os
 from langchain.chains import GraphQAChain
 from langchain_community.graphs.networkx_graph import NetworkxEntityGraph
 from langchain_together import ChatTogether
 from langchain.prompts import PromptTemplate
+import json
+import re
+from dotenv import load_dotenv
+
+load_dotenv()
+
+together_api_key = os.getenv("TOGETHER_API_KEY")
 
 chat_model = ChatTogether(
-    together_api_key="019d5b390bf9b379deefbc22ed4cb09750a79f34f667e5b491828bd12959db2e",
+    together_api_key=together_api_key,
     model="meta-llama/Llama-3-70b-chat-hf",
 )
 
-gml_file_path = "icd10/icd10_graph.gml"
+gml_file_path = "Dataset/icd10_graph.gml"
 graph = NetworkxEntityGraph.from_gml(gml_file_path)
 
 # Retrieve graph triples for context
@@ -68,15 +76,43 @@ chain = GraphQAChain.from_llm(
     entity_prompt=entity_prompt,
     verbose=True
 )
-triples = graph.get_triples()
-context = ", ".join([f"({t[0]}, {t[1]}, {t[2]})" for t in triples])
-# Define the provisional diagnosis as the question
-question = "Patient diagnosed with Right eye cataract"
+def get_icd10_code(extracted_text):
+    try:
+        # Invoke the chain with the query
+        response = chain.invoke({
+            "query": extracted_text
+        })
 
-# Invoke the chain with both query and context
-response = chain.invoke({
-    "query": question
-})
+        # Print the response for debugging
+        print("Chain Response:", response)
 
-# Print the refined response
-print("Response:", response)
+        result_text = response.get('result', '')
+        match = re.search(r'c:\s*(\S+),\s*d:\s*(.+)', result_text)
+
+        # match = re.search(r'\{.*\}', result_text, re.DOTALL)
+        if match:
+            icd10_code = match.group(1)  # Extract ICD-10 code
+            description = match.group(2)  # Extract description
+
+            print(f"ICD-10 Code: {icd10_code}")
+            print(f"Description: {description}")
+
+            # json_str = match.group(0)
+            # # Parse the JSON string
+            # icd10_data = json.loads(json_str)
+            # icd10_code = icd10_data.get('icd10_code', '')
+            # description = icd10_data.get('description', '')
+        else:
+            
+            icd10_code = ''
+            description = ''
+
+        return {
+           "extracted_text": extracted_text,
+            "icd10_code": icd10_code,
+            "description": description
+        }
+    except Exception as e:
+        print(f"Error in get_icd10_code: {e}")
+        return None
+

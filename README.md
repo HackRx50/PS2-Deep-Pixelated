@@ -13,7 +13,7 @@ To set up the project and install all required libraries, follow these steps:
   `pip install --default-timeout=100 -r requirements.txt`
 ### 3. Running the project
 Once everything is set up, you can run the project using:
-`python main.py "path of the data set folder"`
+`uvicorn app:app --reload`
 
 ## Table of Contents
 1. [Overview](#1-overview)
@@ -82,18 +82,11 @@ One key challenge we address is the use of abbreviations in medical terminology.
 ## 5. USP of Our Solution
 1. High-Precision Extraction
 2. Automated “Region of Interest” Detection
-3. Scalable Solution
-4. Comprehensive Image Preprocessing
-5. High Accuracy
-6. Seamless Data Compilation
-
-## 6. Future Enhancements
-1. Multi-Language Support
-2. Dynamic Prescription Format Handling
-3. Advanced Data Analytics for Hospitals
-4. Contextual Understanding
-5. Efficient Large Document Processing
-6. Improved Text Extraction Accuracy
+3. Accurate identification of ICD10 codes using knowledge graphs.
+4. Scalable Solution
+5. Comprehensive Image Preprocessing
+6. High Accuracy
+7. Seamless Data Compilation
 
 ## 7. About The Team
 1. We are Team Deep Pixelated, a group of tech enthusiasts united by our passion for innovation. Comprising [Avi Gupta](https://github.com/IVAVI17), [Kartikey Bhatnagar](https://github.com/kartikey-codes), and [Vaishali Singh](https://github.com/Vaishaliii25), we met during a college club event and quickly bonded over our shared interest in technology and solving real-world problems.
